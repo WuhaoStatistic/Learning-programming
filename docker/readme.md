@@ -41,7 +41,7 @@ options:
 &nbsp;&nbsp;&nbsp;&nbsp;`--name`: name for container
 &nbsp;&nbsp;&nbsp;&nbsp;`-d`    : run container in background(detached mode)  
 &nbsp;&nbsp;&nbsp;&nbsp;`-i`    : run docker in interative mode, normally used with '-t'  
-&nbsp;&nbsp;&nbsp;&nbsp;`-t`    : assign a fake input port,normally used with `-i`  
+&nbsp;&nbsp;&nbsp;&nbsp;`-t`    : allocate a pesudo TTY,normally used with `-i`  
 &nbsp;&nbsp;&nbsp;&nbsp;`-P`    : random port  
 &nbsp;&nbsp;&nbsp;&nbsp;`-p`    : specific port `-p 8080:80`  
 
