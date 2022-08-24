@@ -31,5 +31,5 @@
 
 **check image stats** : `docker system df`  
 
-**delete images** : `docker rmi [-f] [img_id]`
+**delete images** : `docker rmi [-f] [img_id or img name]`
 
