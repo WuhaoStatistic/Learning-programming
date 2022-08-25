@@ -71,3 +71,5 @@ e.g. `docker cp a12619d47097:/tmp/a.txt a.txt`
 &nbsp;&nbsp;&nbsp;&nbsp;`import` : `cat abcd.tar.gz | docker import - wwu/ubuntu:20.04`
 
 export will export everything inside a container to host machine. Import will transfer tar to a image.
+
+**commit** `docker commit -m='' -a='' [id] [name1/name2]:[tag]`
