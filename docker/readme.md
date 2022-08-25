@@ -61,4 +61,13 @@ options:
 &nbsp;&nbsp;&nbsp;&nbsp;`-i`    : run docker in interative mode, normally used with '-t'  
 &nbsp;&nbsp;&nbsp;&nbsp;`-t`    : allocate a pesudo TTY,normally used with `-i`  
 
-There is also another way `docker attach [id]`. But first way is recommanded, since it opens a new process. Once that process is interruptly stopped, the container can still survive because of existance of old process.
+There is also another way `docker attach [id]`. But first way is recommanded, since it opens a new process. Once that process is interruptly stopped, the container can still survive because of existance of old process.  
+
+**cp file from container** : `docker cp [id:path] path`  
+e.g. `docker cp a12619d47097:/tmp/a.txt a.txt`
+
+**export and import**
+&nbsp;&nbsp;&nbsp;&nbsp;`export` : `docker export a12619d47097 > abcd.tar.gz`
+&nbsp;&nbsp;&nbsp;&nbsp;`import` : `cat abcd.tar.gz | docker import - wwu/ubuntu:20.04`
+
+export will export everything inside a container to host machine. Import will transfer tar to a image
