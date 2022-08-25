@@ -46,4 +46,19 @@ options:
 &nbsp;&nbsp;&nbsp;&nbsp;`-p`    : specific port `-p 8080:80`  
 
 **see all running image** : `docker ps [options]`  
+
 **restart,stop,kill**     : `docker restart/stop/kill [id or name]`
+
+**delete stopped container**  : `docker rm [option] [id or name]` using -f in option will forcely delete 
+
+**exit container but keep running** : `ctrl+p+q`
+
+**exit container and shut down it** : `exit`
+
+**re-enter a running container** : `docker exec [option] [id] command [ARG]`
+options:
+&nbsp;&nbsp;&nbsp;&nbsp;`-d`    : run container in background(detached mode)  
+&nbsp;&nbsp;&nbsp;&nbsp;`-i`    : run docker in interative mode, normally used with '-t'  
+&nbsp;&nbsp;&nbsp;&nbsp;`-t`    : allocate a pesudo TTY,normally used with `-i`  
+
+There is also another way `docker attach [id]`. But first way is recommanded, since it opens a new process. Once that process is interruptly stopped, the container can still survive because of existance of old process.
