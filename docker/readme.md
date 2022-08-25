@@ -46,3 +46,4 @@ options:
 &nbsp;&nbsp;&nbsp;&nbsp;`-p`    : specific port `-p 8080:80`  
 
 **see all running image** : `docker ps [options]`  
+**restart,stop,kill**     : `docker restart/stop/kill [id or name]`
