@@ -47,6 +47,8 @@ options:
 
 **see all running image** : `docker ps [options]`  
 
+**inspect container**     : `docker inspect [id]`  
+
 **restart,stop,kill**     : `docker restart/stop/kill [id or name]`
 
 **delete stopped container**  : `docker rm [option] [id or name]` using -f in option will forcely delete 
