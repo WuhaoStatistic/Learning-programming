@@ -70,4 +70,4 @@ e.g. `docker cp a12619d47097:/tmp/a.txt a.txt`
 &nbsp;&nbsp;&nbsp;&nbsp;`export` : `docker export a12619d47097 > abcd.tar.gz`
 &nbsp;&nbsp;&nbsp;&nbsp;`import` : `cat abcd.tar.gz | docker import - wwu/ubuntu:20.04`
 
-export will export everything inside a container to host machine. Import will transfer tar to a image
+export will export everything inside a container to host machine. Import will transfer tar to a image.
