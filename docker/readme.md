@@ -76,6 +76,6 @@ export will export everything inside a container to host machine. Import will tr
 
 ## Container volume 
 
-When we start a container, we can use volume to link container and host machine. They will shar a common directory.
-`docker run [option] --priviledge=true -v [host dir:contariner dir] [image]:[tag]`
-`docker run -it --privileged=true -v /home/pwdis123/Desktop:/home ubuntu:20.04`
+When we start a container, we can use volume to link container and host machine. They will shar a common directory.  
+formula   `docker run [option] --priviledge=true -v [host dir:contariner dir] [image]:[tag]`  
+example   `docker run -it --privileged=true -v /home/pwdis123/Desktop:/home ubuntu:20.04`
