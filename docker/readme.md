@@ -123,4 +123,5 @@ ENTRYPOINT ["nginx","-c"]
 CMD ["/etc/nginx/nginx.conf"] 
 ```
 code above is equivalent to writing `nginx ;-c /etc/nginx/nginx.conf` in the **container terminal** .  
+
 And now if we use `docker run` with parameters like `/bin/bash`, then it will replace the last CMD but not `ENTRYPOINT`, however, still cause unpredictable result.
