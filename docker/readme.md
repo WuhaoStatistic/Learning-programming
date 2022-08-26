@@ -96,4 +96,17 @@ example   `docker run -it --privileged=true -v /home/pwdis123/Desktop:/home:ro u
 `RUN` : terminal command that needed to be used when build container. For example, when we have a base ubuntu:20.04 image, if we want to add vim tools, we have to run
 `apt-get install vim` in the container. Now we can write `RUN apt-get install vim`, it will help us execute `apt-get install vim`.
 
-`EXPOSE` : container's port that exposed to host
+`EXPOSE` : container's port that exposed to host  
+
+`WORKDIR`: default dir when login container  
+
+`ENV` : set environment variable  
+
+`VOLUME` : set data volume  
+
+`ADD` : copy files from host to container,it will automatically process URL and tar  
+
+`CMD` : code here will run when using `docker run`. DIFFERENT FROM `RUN`. Only the last `CMD` will take effect and it will be inplaced by parameters following `docker run`. 
+For example,  in a docker file we have  
+`CMD ['catalina.sh','run']` 
+and if we use `docker run -it -p 8080:8080 tomcat8 /bin/bash`,then it is equal to add `CMD ['/bin/bash','run']` in the docker file. Since only the last `CMD` can take effect, so the original one will be masked.
