@@ -106,7 +106,21 @@ example   `docker run -it --privileged=true -v /home/pwdis123/Desktop:/home:ro u
 
 `ADD` : copy files from host to container,it will automatically process URL and tar  
 
-`CMD` : code here will run when using `docker run`. DIFFERENT FROM `RUN`. Only the last `CMD` will take effect and it will be inplaced by parameters following `docker run`. 
-For example,  in a docker file we have  
-`CMD ['catalina.sh','run']` 
-and if we use `docker run -it -p 8080:8080 tomcat8 /bin/bash`,then it is equal to add `CMD ['/bin/bash','run']` in the docker file. Since only the last `CMD` can take effect, so the original one will be masked.
+`CMD` : code here will run when using `docker run`. DIFFERENT FROM `RUN`. Only the last `CMD` will take effect and it will be inplaced by parameters following `docker run`.  
+For example,  in a docker file we have `CMD ['catalina.sh','run']`   
+
+and if we use `docker run -it -p 8080:8080 tomcat8 /bin/bash`  
+
+then it is equal to add `CMD ['/bin/bash','run']` in the docker file.  
+Since only the last `CMD` can take effect, so the original one will be masked.  
+
+`ENTRYPOINT` : similar to `CMD`, but it won't be replaced by `docker run` parameter.  
+This is normally associated with `CMD`, and `CMD` here works as a parameter of `ENTRYPOINT`.  
+```
+FROM nginx
+
+ENTRYPOINT ["nginx","-c"] 
+CMD ["/etc/nginx/nginx.conf"] 
+```
+code above is equivalent to writing `nginx ;-c /etc/nginx/nginx.conf` in the **container terminal** .  
+And now if we use `docker run` with parameters like `/bin/bash`, then it will replace the last CMD but not `ENTRYPOINT`, however, still cause unpredictable result.
