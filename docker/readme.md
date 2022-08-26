@@ -1,4 +1,4 @@
-## Docker normally used command
+## Docker
 
 ### Start & Help
 
@@ -76,7 +76,7 @@ export will export everything inside a container to host machine. Import will tr
 
 **commit** `docker commit -m='' -a='' [id] [name1/name2]:[tag]`
 
-## Container volume 
+### Container volume 
 
 When we start a container, we can use volume to link container and host machine. They will shar a common directory.  
 formula   `docker run [option] --priviledge=true -v [host dir:contariner dir:[rw/ro]] [--name name] [image]:[tag]`  
@@ -85,7 +85,7 @@ example   `docker run -it --privileged=true -v /home/pwdis123/Desktop:/home:ro u
 
 **volume heritage** `docker run [option] --priviledge=true - -volume-from [father id] [host dir:contariner dir:[rw/ro]] [--name name] [image]:[tag]`
 
-## Docker file
+### Docker file
 
 **COMMAND**
 
