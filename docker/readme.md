@@ -79,5 +79,19 @@ export will export everything inside a container to host machine. Import will tr
 ## Container volume 
 
 When we start a container, we can use volume to link container and host machine. They will shar a common directory.  
-formula   `docker run [option] --priviledge=true -v [host dir:contariner dir] [image]:[tag]`  
-example   `docker run -it --privileged=true -v /home/pwdis123/Desktop:/home ubuntu:20.04`
+formula   `docker run [option] --priviledge=true -v [host dir:contariner dir:[rw/ro]] [--name name] [image]:[tag]`  
+example   `docker run -it --privileged=true -v /home/pwdis123/Desktop:/home:ro ubuntu:20.04`
+`rp` means we can only read insidi container
+
+**volume heritage** `docker run [option] --priviledge=true - -volume-from [father id] [host dir:contariner dir:[rw/ro]] [--name name] [image]:[tag]`
+
+## Docker file
+
+**COMMAND**
+
+`FROM`: base image, normally is a existed image, the first command in docker file  
+
+`MAINTAINER` : name and e-mail of author  
+
+`RUN` : terminal command that needed to be used when build container. For example, when we have a base ubuntu:20.04 image, if we want to add vim tools, we have to run
+`apt-get install vim` in the container. Now we can write `RUN apt-get install vim`, it will help us execute `apt-get install vim`.
