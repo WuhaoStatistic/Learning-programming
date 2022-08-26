@@ -79,7 +79,7 @@ export will export everything inside a container to host machine. Import will tr
 ### Container volume 
 
 When we start a container, we can use volume to link container and host machine. They will shar a common directory.  
-formula   `docker run [option] --priviledge=true -v [host dir:contariner dir:[rw/ro]] [--name name] [image]:[tag]`  
+formula   `docker run [option] --privileged=true -v [host dir:contariner dir:[rw/ro]] [--name name] [image]:[tag]`  
 example   `docker run -it --privileged=true -v /home/pwdis123/Desktop:/home:ro ubuntu:20.04`
 `rp` means we can only read insidi container
 
