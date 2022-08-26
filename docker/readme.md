@@ -106,7 +106,7 @@ example   `docker run -it --privileged=true -v /home/pwdis123/Desktop:/home:ro u
 
 `ADD` : copy files from host to container,it will automatically process URL and tar  
 
-`CMD` : code here will run when using `docker run`. DIFFERENT FROM `RUN`. Only the last `CMD` will take effect and it will be inplaced by parameters following `docker run`.  
+`CMD` : code here will run when using `docker run`. DIFFERENT FROM `RUN`. The last `CMD` willbe inplaced by parameters following `docker run`.  
 For example,  in a docker file we have `CMD ['catalina.sh','run']`   
 
 and if we use `docker run -it -p 8080:8080 tomcat8 /bin/bash`  
