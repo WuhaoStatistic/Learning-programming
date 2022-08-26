@@ -95,3 +95,5 @@ example   `docker run -it --privileged=true -v /home/pwdis123/Desktop:/home:ro u
 
 `RUN` : terminal command that needed to be used when build container. For example, when we have a base ubuntu:20.04 image, if we want to add vim tools, we have to run
 `apt-get install vim` in the container. Now we can write `RUN apt-get install vim`, it will help us execute `apt-get install vim`.
+
+`EXPOSE` : container's port that exposed to host
