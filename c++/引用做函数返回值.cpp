@@ -20,7 +20,7 @@ int& test()
 int main()
 {   
 	int &b = test();
-	cout << b;
+	cout << b<<endl;
 	test() = 1000;
 	cout << b;
 	return 0;
