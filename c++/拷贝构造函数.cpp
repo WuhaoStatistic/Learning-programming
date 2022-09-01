@@ -33,20 +33,21 @@ public:
 		this->age = p1->age;
 	}
 };
-
+// 对象作为函数参数传入的时候我们知道会创建一个临时的拷贝，此时会调用拷贝函数，
+// 对象作为函数返回值的时候，会返回一个根据原对象创建的新对象，也是用拷贝函数
 int main()
 {
 	const int& ref = 1;
 	Person a = Person(10);
 	Person b = Person(a);
-	cout << "a,b ��ַ��ͬ���Ƕ�������������" << endl;
+	cout << "a,b 地址不同，是独立的两个对象" << endl;
 	cout << &a << endl;
 	cout << &b << endl;
 
 	Person* c = new Person(15);
 	Person e = Person(c);
 
-	cout << "��C��age��15��Ϊ2 e�����Բ������仯,���ߵ�ַҲ����ͬ��Ҳ�Ƕ�����" << endl;
+	cout << "将C的age从15改为2 e的属性不发生变化,二者地址也不相同，也是独立的" << endl;
 	c->age = 2;
 	cout << e.age << endl;
 	cout << c << endl;
