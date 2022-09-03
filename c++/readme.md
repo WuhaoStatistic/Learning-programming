@@ -35,5 +35,5 @@ c++默认创建4个函数 `无参构造函数` `无参析构函数` `默认拷�
 使用this指针需要注意，如果一个指向对象的指针为空，该指针也是能访问类的成员函数的，如果成员函数中访问了成员属性，那么就会引发访问异常。所以在使用this指针之前，最好判断一下this是否为空`if(this!=NULL)`  
 
 继承方式极效果一览  
-![image](https://user-images.githubusercontent.com/89610539/188274103-5426d520-1d48-4ba2-ad0a-eac70a75ea22.png) 
+![image](https://user-images.githubusercontent.com/89610539/188274103-5426d520-1d48-4ba2-ad0a-eac70a75ea22.png)  
 父类中所有非静态成员属性都会被子类继承，只是某些成员属性无法被访问，被编译器隐藏了。
