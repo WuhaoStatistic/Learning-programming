@@ -64,4 +64,9 @@ Base 构造 -> Son 构造 -> Son 析构 -> Base析构.
 的地址也是不固定的。下图中 person类是类模板，而P是普通的类。所以可以理解为，类模板在实例化的时候相当于生成了两个不同的类。  
 ![image](https://user-images.githubusercontent.com/89610539/189521167-21f0a19d-f185-4cc3-93b7-6ffadc285ffc.png)  
 
+类模板头文件和cpp文件分开编写时，在调用的时候会出现问题。一般我们是使用`#include "xxx.h"` 的形式去包含头文件和源文件。类模板的成员只有在调用的时候才会创建，所以编译的时候编译器就不会去看cpp文件。导致链接的时候就找不到。
+
+解决办法一： 直接include cpp文件。因为在cpp文件中已经包含了头文件，这样编译器先看到成员函数的实现，再看到类的定义。
+解决办法二： 将头文件和源文件内容编写到一起 构成hpp文件
+关于hpp的使用 (hpp使用)[https://blog.csdn.net/zhoumoon/article/details/106330506]
 
