@@ -68,5 +68,5 @@ Base 构造 -> Son 构造 -> Son 析构 -> Base析构.
 
 解决办法一： 直接include cpp文件。因为在cpp文件中已经包含了头文件，这样编译器先看到成员函数的实现，再看到类的定义。
 解决办法二： 将头文件和源文件内容编写到一起 构成hpp文件
-关于hpp的使用 (hpp使用)[https://blog.csdn.net/zhoumoon/article/details/106330506]
+关于hpp的使用 [hpp使用](https://blog.csdn.net/zhoumoon/article/details/106330506)
 
