@@ -74,3 +74,6 @@ Base 构造 -> Son 构造 -> Son 析构 -> Base析构.
 ### STL
 
 STL 六大组件 container  algorithm  iterator  functor adapter  allocator
+
+具体函数使用时可以去搜索用法。
+
