@@ -57,7 +57,8 @@ options:
 
 **exit container and shut down it** : `exit`
 
-**re-enter a running container** : `docker exec [option] [id] command [ARG]`
+**re-enter a running container** : `docker exec [option] [id] command [ARG]`  
+`example` : docker exec -it 39 /bin/bash
 options:
 &nbsp;&nbsp;&nbsp;&nbsp;`-d`    : run container in background(detached mode)  
 &nbsp;&nbsp;&nbsp;&nbsp;`-i`    : run docker in interative mode, normally used with '-t'  
