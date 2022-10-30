@@ -1,0 +1,95 @@
+[0.133s] Invoking command in '/home/wuhao/town_ws/build/wu5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16
+[0.152s] [35m[1mScanning dependencies of target wu5_node[0m
+[0.165s] [ 50%] [32mBuilding CXX object CMakeFiles/wu5_node.dir/src/wu5.cpp.o[0m
+[0.983s] In file included from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2[m[K:
+[0.983s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:16:25:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[0.984s]    16 |     chrono::seconds sec([01;31m[K2[m[K);
+[0.984s]       |                         [01;31m[K^[m[K
+[0.984s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:16:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[0.992s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[0.992s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.992s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.992s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.992s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.992s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.993s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.993s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.993s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.993s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.993s]                  from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:1[m[K:
+[0.993s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:[m[K In member function ‘[01m[Kvoid Wu5::pub_want_more_callback()[m[K’:
+[0.993s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:26:64:[m[K [01;31m[Kerror: [m[K‘[01m[Knovels[m[K’ was not declared in this scope
+[0.993s]    26 |         RCLCPP_INFO(this->get_logger(),"start to ask for more",[01;31m[Knovels[m[K->data);
+[0.993s]       |                                                                [01;31m[K^~~~~~[m[K
+[0.993s] In file included from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2[m[K:
+[0.993s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[0.993s]    27 |         [01;31m[Kmsg[m[K = std_msgs::msg::String();
+[0.994s]       |         [01;31m[K^~~[m[K
+[0.994s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:27:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[0.994s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[0.994s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[0.994s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[0.994s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[0.994s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[0.994s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.994s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.994s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.994s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.995s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.995s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.995s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.995s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.995s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.995s]                  from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:1[m[K:
+[0.995s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[0.995s]    26 | namespace [01;36m[Kmsg[m[K
+[0.995s]       |           [01;36m[K^~~[m[K
+[0.995s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[0.995s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[0.995s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[0.995s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[0.996s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[0.996s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[0.996s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.996s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.996s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.996s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.996s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.996s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.996s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.996s]                  from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:1[m[K:
+[0.996s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[0.996s]    26 | namespace [01;36m[Kmsg[m[K
+[0.996s]       |           [01;36m[K^~~[m[K
+[0.996s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[0.997s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[0.997s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.997s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.997s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.997s]                  from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:1[m[K:
+[0.997s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[0.997s]    26 | namespace [01;36m[Kmsg[m[K
+[0.997s]       |           [01;36m[K^~~[m[K
+[0.997s] In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7[m[K,
+[0.997s]                  from [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:3[m[K,
+[0.997s]                  from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2[m[K:
+[0.997s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[0.997s]    26 | namespace [01;36m[Kmsg[m[K
+[0.998s]       |           [01;36m[K^~~[m[K
+[1.002s] In file included from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2[m[K:
+[1.002s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:[m[K In constructor ‘[01m[KWu5::Wu5(std::string)[m[K’:
+[1.002s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_want_more_timer[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_want_more[m[K’?
+[1.002s]    46 |     [01;31m[Kpub_want_more_timer[m[K = this->create_wall_timer(sec,bind(&Wu5::pub_want_more_callback,this));
+[1.002s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.002s]       |     [32m[Kpub_want_more[m[K
+[1.005s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:46:51:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::chrono::seconds Wu5::sec(int)[m[K’
+[1.005s]    46 |     pub_want_more_timer = this->create_wall_timer([01;31m[Ksec[m[K,bind(&Wu5::pub_want_more_callback,this));
+[1.005s]       |                                                   [01;31m[K^~~[m[K
+[1.005s] In file included from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2[m[K:
+[1.005s] [01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:16:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.005s]    16 |     chrono::seconds [01;36m[Ksec[m[K(2);
+[1.006s]       |                     [01;36m[K^~~[m[K
+[2.049s] make[2]: *** [CMakeFiles/wu5_node.dir/build.make:63: CMakeFiles/wu5_node.dir/src/wu5.cpp.o] Error 1
+[2.050s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wu5_node.dir/all] Error 2
+[2.050s] make: *** [Makefile:141: all] Error 2
+[2.051s] Invoked command in '/home/wuhao/town_ws/build/wu5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16

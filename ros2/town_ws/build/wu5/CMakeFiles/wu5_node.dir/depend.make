@@ -274,6 +274,14 @@ CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg
 CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__traits.hpp
 CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp
 CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp
+CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/string__builder.hpp
+CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp
+CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/string__traits.hpp
+CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/u_int32__builder.hpp
+CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/u_int32__struct.hpp
+CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/u_int32__traits.hpp
+CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/std_msgs/msg/string.hpp
+CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/std_msgs/msg/u_int32.hpp
 CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/tracetools/config.h
 CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/tracetools/tracetools.h
 CMakeFiles/wu5_node.dir/src/wu5.cpp.o: /opt/ros/foxy/include/tracetools/utils.hpp

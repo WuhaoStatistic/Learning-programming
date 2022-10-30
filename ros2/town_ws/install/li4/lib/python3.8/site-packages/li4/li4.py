@@ -15,6 +15,6 @@ from .li4_oop import writerclass # 引用同级目录
 def main(args=None):
 
     rc.init(args=args) # 初始化客户端库
-    li4 = writerclass('wuhao') # 新建节点对象 ros2 nodelist 显示的就是这个名字
+    li4 = writerclass('li4') # 新建节点对象 ros2 nodelist 显示的就是这个名字
     rc.spin(li4)
     rc.shutdown()

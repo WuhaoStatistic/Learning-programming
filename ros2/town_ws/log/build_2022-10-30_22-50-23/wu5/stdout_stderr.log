@@ -1,0 +1,18 @@
+[100%] Built target wu5_node
+-- Install configuration: ""
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/ament_index/resource_index/package_run_dependencies/wu5
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/ament_index/resource_index/parent_prefix_path/wu5
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/environment/path.sh
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/environment/path.dsv
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/local_setup.bash
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/local_setup.sh
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/local_setup.zsh
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/local_setup.dsv
+-- Installing: /home/wuhao/town_ws/install/wu5/share/wu5/package.dsv
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/ament_index/resource_index/packages/wu5
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/cmake/wu5Config.cmake
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/cmake/wu5Config-version.cmake
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/package.xml
+-- Up-to-date: /home/wuhao/town_ws/install/wu5/lib/wu5/wu5_node

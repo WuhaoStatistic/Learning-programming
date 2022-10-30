@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (li4) JobQueued: {'identifier': 'li4', 'dependencies': OrderedDict()}
+[0.000247] (wu5) JobQueued: {'identifier': 'wu5', 'dependencies': OrderedDict()}
+[0.000488] (li4) JobStarted: {'identifier': 'li4'}
+[0.008526] (wu5) JobStarted: {'identifier': 'wu5'}
+[0.099961] (-) TimerEvent: {}
+[0.137484] (wu5) JobProgress: {'identifier': 'wu5', 'progress': 'cmake'}
+[0.137907] (wu5) JobProgress: {'identifier': 'wu5', 'progress': 'build'}
+[0.138361] (wu5) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wuhao/town_ws/build/wu5', '--', '-j16', '-l16'], 'cwd': '/home/wuhao/town_ws/build/wu5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wuhao'), ('GIT_ASKPASS', '/home/wuhao/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wuhao'), ('OLDPWD', '/home/wuhao'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1d51d610-857b-4855-9013-57ce7a8e3ecd.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuhao/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuhao/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/wuhao/town_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wuhao'), ('NAME', 'DESKTOP-F3L0I5N'), ('WSL_INTEROP', '/run/WSL/261_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wuhao/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/vmware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/Git/cmd:/mnt/e/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.0/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Pandoc/:/mnt/c/Users/Wuhao/AppData/Local/Microsoft/WindowsApps:/mnt/e/PyCharm/bin:/mnt/e/anaconda/Scripts:/mnt/c/Users/Wuhao/AppData/Roaming/TinyTeX/bin/win32:/mnt/c/Users/Wuhao/.dotnet/tools:/mnt/e/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', '172.20.112.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-40586af7e5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/wuhao/town_ws/install/wu5:/home/wuhao/town_ws/install/li4:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_DEBUG_PLUSINSI', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuhao/town_ws/build/wu5'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/wuhao/town_ws/install/wu5:/home/wuhao/town_ws/install/li4:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.160522] (wu5) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wu5_node\x1b[0m\n'}
+[0.173439] (wu5) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wu5_node.dir/src/wu5.cpp.o\x1b[0m\n'}
+[0.200027] (-) TimerEvent: {}
+[0.300302] (-) TimerEvent: {}
+[0.346448] (li4) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/li4', 'build', '--build-base', '/home/wuhao/town_ws/build/li4/build', 'install', '--prefix', '/home/wuhao/town_ws/install/li4', '--record', '/home/wuhao/town_ws/build/li4/install.log', '--single-version-externally-managed'], 'cwd': '/home/wuhao/town_ws/src/li4', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wuhao', 'GIT_ASKPASS': '/home/wuhao/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/wuhao', 'OLDPWD': '/home/wuhao', 'TERM_PROGRAM_VERSION': '1.72.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-1d51d610-857b-4855-9013-57ce7a8e3ecd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wuhao/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/wuhao/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', '_colcon_cd_root': '/opt/ros/foxy/', 'COLCON_PREFIX_PATH': '/home/wuhao/town_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'wuhao', 'NAME': 'DESKTOP-F3L0I5N', 'WSL_INTEROP': '/run/WSL/261_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/wuhao/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/vmware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/Git/cmd:/mnt/e/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.0/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Pandoc/:/mnt/c/Users/Wuhao/AppData/Local/Microsoft/WindowsApps:/mnt/e/PyCharm/bin:/mnt/e/anaconda/Scripts:/mnt/c/Users/Wuhao/AppData/Roaming/TinyTeX/bin/win32:/mnt/c/Users/Wuhao/.dotnet/tools:/mnt/e/Microsoft VS Code/bin:/snap/bin', 'DISPLAY': '172.20.112.1:0.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-40586af7e5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/wuhao/town_ws/install/wu5:/home/wuhao/town_ws/install/li4:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_DEBUG_PLUSINSI': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/wuhao/town_ws/build/li4', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages:/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/wuhao/town_ws/install/wu5', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[0.400406] (-) TimerEvent: {}
+[0.466206] (li4) StdoutLine: {'line': b'running egg_info\n'}
+[0.466655] (li4) StdoutLine: {'line': b'writing ../../build/li4/li4.egg-info/PKG-INFO\n'}
+[0.466980] (li4) StdoutLine: {'line': b'writing dependency_links to ../../build/li4/li4.egg-info/dependency_links.txt\n'}
+[0.467162] (li4) StdoutLine: {'line': b'writing entry points to ../../build/li4/li4.egg-info/entry_points.txt\n'}
+[0.467356] (li4) StdoutLine: {'line': b'writing requirements to ../../build/li4/li4.egg-info/requires.txt\n'}
+[0.467544] (li4) StdoutLine: {'line': b'writing top-level names to ../../build/li4/li4.egg-info/top_level.txt\n'}
+[0.500474] (-) TimerEvent: {}
+[0.500642] (li4) StdoutLine: {'line': b"reading manifest file '../../build/li4/li4.egg-info/SOURCES.txt'\n"}
+[0.500956] (li4) StdoutLine: {'line': b"writing manifest file '../../build/li4/li4.egg-info/SOURCES.txt'\n"}
+[0.501099] (li4) StdoutLine: {'line': b'running build\n'}
+[0.501263] (li4) StdoutLine: {'line': b'running build_py\n'}
+[0.501422] (li4) StdoutLine: {'line': b'copying li4/li4_oop.py -> /home/wuhao/town_ws/build/li4/build/lib/li4\n'}
+[0.501520] (li4) StdoutLine: {'line': b'running install\n'}
+[0.501774] (li4) StdoutLine: {'line': b'running install_lib\n'}
+[0.502246] (li4) StdoutLine: {'line': b'copying /home/wuhao/town_ws/build/li4/build/lib/li4/li4_oop.py -> /home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4\n'}
+[0.502599] (li4) StdoutLine: {'line': b'byte-compiling /home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4/li4_oop.py to li4_oop.cpython-38.pyc\n'}
+[0.503778] (li4) StdoutLine: {'line': b'running install_data\n'}
+[0.504010] (li4) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.504808] (li4) StdoutLine: {'line': b"removing '/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.505082] (li4) StdoutLine: {'line': b'Copying ../../build/li4/li4.egg-info to /home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4-0.0.0-py3.8.egg-info\n'}
+[0.505593] (li4) StdoutLine: {'line': b'running install_scripts\n'}
+[0.515632] (li4) StdoutLine: {'line': b'Installing li5 script to /home/wuhao/town_ws/install/li4/lib/li4\n'}
+[0.515871] (li4) StdoutLine: {'line': b"writing list of installed files to '/home/wuhao/town_ws/build/li4/install.log'\n"}
+[0.527051] (li4) CommandEnded: {'returncode': 0}
+[0.536514] (li4) JobEnded: {'identifier': 'li4', 'rc': 0}
+[0.600594] (-) TimerEvent: {}
+[0.700900] (-) TimerEvent: {}
+[0.801215] (-) TimerEvent: {}
+[0.901709] (-) TimerEvent: {}
+[0.991828] (wu5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2\x1b[m\x1b[K:\n'}
+[0.992092] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:16:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[0.992218] (wu5) StderrLine: {'line': b'   16 |     chrono::seconds sec(\x1b[01;31m\x1b[K2\x1b[m\x1b[K);\n'}
+[0.992320] (wu5) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.992417] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:16:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[1.000347] (wu5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.000514] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.000846] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.000931] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.001010] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.001088] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.001165] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.001241] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.001317] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.001393] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.001468] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:1\x1b[m\x1b[K:\n'}
+[1.001542] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Wu5::pub_want_more_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.001618] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:26:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knovels\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.001698] (-) TimerEvent: {}
+[1.001801] (wu5) StderrLine: {'line': b'   26 |         RCLCPP_INFO(this->get_logger(),"start to ask for more",\x1b[01;31m\x1b[Knovels\x1b[m\x1b[K->data);\n'}
+[1.001889] (wu5) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.001966] (wu5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2\x1b[m\x1b[K:\n'}
+[1.002041] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:27:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.002117] (wu5) StderrLine: {'line': b'   27 |         \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K = std_msgs::msg::String();\n'}
+[1.002193] (wu5) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.002267] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:27:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.002340] (wu5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[1.002414] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[1.002488] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[1.002562] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[1.002636] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[1.002710] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.002792] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.003001] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.003079] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.003163] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.003238] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.003311] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.003399] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.003467] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.003542] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:1\x1b[m\x1b[K:\n'}
+[1.003616] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003692] (wu5) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.003767] (wu5) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.003850] (wu5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22\x1b[m\x1b[K,\n'}
+[1.003941] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[1.004023] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[1.004090] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[1.004164] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[1.004238] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[1.004312] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.004387] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.004460] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.004534] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.004607] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.004681] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.004746] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.004828] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:1\x1b[m\x1b[K:\n'}
+[1.004895] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004970] (wu5) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.005045] (wu5) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.005120] (wu5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[1.005187] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:34\x1b[m\x1b[K,\n'}
+[1.005260] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.005334] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.005409] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.005475] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:1\x1b[m\x1b[K:\n'}
+[1.005549] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005624] (wu5) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.005697] (wu5) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.005770] (wu5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[1.005853] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:3\x1b[m\x1b[K,\n'}
+[1.005928] (wu5) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2\x1b[m\x1b[K:\n'}
+[1.006002] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006082] (wu5) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.006156] (wu5) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.010409] (wu5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2\x1b[m\x1b[K:\n'}
+[1.010558] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KWu5::Wu5(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.010649] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:46:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_want_more_timer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpub_want_more\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.010752] (wu5) StderrLine: {'line': b'   46 |     \x1b[01;31m\x1b[Kpub_want_more_timer\x1b[m\x1b[K = this->create_wall_timer(sec,bind(&Wu5::pub_want_more_callback,this));\n'}
+[1.010853] (wu5) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.010930] (wu5) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kpub_want_more\x1b[m\x1b[K\n'}
+[1.013664] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:46:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::seconds Wu5::sec(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.013755] (wu5) StderrLine: {'line': b'   46 |     pub_want_more_timer = this->create_wall_timer(\x1b[01;31m\x1b[Ksec\x1b[m\x1b[K,bind(&Wu5::pub_want_more_callback,this));\n'}
+[1.013846] (wu5) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.013927] (wu5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2\x1b[m\x1b[K:\n'}
+[1.014016] (wu5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:16:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.014106] (wu5) StderrLine: {'line': b'   16 |     chrono::seconds \x1b[01;36m\x1b[Ksec\x1b[m\x1b[K(2);\n'}
+[1.014196] (wu5) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.101830] (-) TimerEvent: {}
+[1.202127] (-) TimerEvent: {}
+[1.302440] (-) TimerEvent: {}
+[1.402757] (-) TimerEvent: {}
+[1.503273] (-) TimerEvent: {}
+[1.603609] (-) TimerEvent: {}
+[1.703925] (-) TimerEvent: {}
+[1.804225] (-) TimerEvent: {}
+[1.904549] (-) TimerEvent: {}
+[2.004865] (-) TimerEvent: {}
+[2.057876] (wu5) StderrLine: {'line': b'make[2]: *** [CMakeFiles/wu5_node.dir/build.make:63: CMakeFiles/wu5_node.dir/src/wu5.cpp.o] Error 1\n'}
+[2.058115] (wu5) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wu5_node.dir/all] Error 2\n'}
+[2.058246] (wu5) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.059583] (wu5) CommandEnded: {'returncode': 2}
+[2.077747] (wu5) JobEnded: {'identifier': 'wu5', 'rc': 2}
+[2.088348] (-) EventReactorShutdown: {}

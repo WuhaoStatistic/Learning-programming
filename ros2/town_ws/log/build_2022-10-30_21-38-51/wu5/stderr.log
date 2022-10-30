@@ -1,0 +1,8 @@
+In file included from [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2[m[K:
+[01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:[m[K In constructor ‘[01m[KWu5::Wu5(std::string)[m[K’:
+[01m[K/home/wuhao/town_ws/src/wu5/include/wu5/wu5.h:35:97:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&Wu5::novel_receive_callback[m[K’ [[01;31m[K-fpermissive[m[K]
+   35 |     sub_novel = this->create_subscription<std_msgs::msg::String>("wuhao story receive",10,bind(&[01;31m[Knovel_receive_callback[m[K,this,_1));
+      |                                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/wu5_node.dir/build.make:63: CMakeFiles/wu5_node.dir/src/wu5.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wu5_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

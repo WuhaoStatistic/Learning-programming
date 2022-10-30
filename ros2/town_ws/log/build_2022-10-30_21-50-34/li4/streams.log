@@ -1,0 +1,27 @@
+[0.382s] Invoking command in '/home/wuhao/town_ws/src/li4': PYTHONPATH=/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/li4 build --build-base /home/wuhao/town_ws/build/li4/build install --prefix /home/wuhao/town_ws/install/li4 --record /home/wuhao/town_ws/build/li4/install.log --single-version-externally-managed
+[0.515s] running egg_info
+[0.515s] writing ../../build/li4/li4.egg-info/PKG-INFO
+[0.515s] writing dependency_links to ../../build/li4/li4.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../../build/li4/li4.egg-info/entry_points.txt
+[0.515s] writing requirements to ../../build/li4/li4.egg-info/requires.txt
+[0.515s] writing top-level names to ../../build/li4/li4.egg-info/top_level.txt
+[0.535s] reading manifest file '../../build/li4/li4.egg-info/SOURCES.txt'
+[0.535s] writing manifest file '../../build/li4/li4.egg-info/SOURCES.txt'
+[0.535s] running build
+[0.536s] running build_py
+[0.536s] copying li4/li4.py -> /home/wuhao/town_ws/build/li4/build/lib/li4
+[0.536s] copying li4/li4_oop.py -> /home/wuhao/town_ws/build/li4/build/lib/li4
+[0.536s] running install
+[0.536s] running install_lib
+[0.536s] copying /home/wuhao/town_ws/build/li4/build/lib/li4/li4.py -> /home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4
+[0.537s] copying /home/wuhao/town_ws/build/li4/build/lib/li4/li4_oop.py -> /home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4
+[0.537s] byte-compiling /home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4/li4.py to li4.cpython-38.pyc
+[0.538s] byte-compiling /home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4/li4_oop.py to li4_oop.cpython-38.pyc
+[0.538s] running install_data
+[0.539s] running install_egg_info
+[0.540s] removing '/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4-0.0.0-py3.8.egg-info' (and everything under it)
+[0.540s] Copying ../../build/li4/li4.egg-info to /home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4-0.0.0-py3.8.egg-info
+[0.540s] running install_scripts
+[0.551s] Installing li5 script to /home/wuhao/town_ws/install/li4/lib/li4
+[0.551s] writing list of installed files to '/home/wuhao/town_ws/build/li4/install.log'
+[0.563s] Invoked command in '/home/wuhao/town_ws/src/li4' returned '0': PYTHONPATH=/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/li4 build --build-base /home/wuhao/town_ws/build/li4/build install --prefix /home/wuhao/town_ws/install/li4 --record /home/wuhao/town_ws/build/li4/install.log --single-version-externally-managed
