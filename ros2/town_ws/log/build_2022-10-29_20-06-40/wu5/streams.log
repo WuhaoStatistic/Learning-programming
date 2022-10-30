@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/wuhao/town_ws/build/wu5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16
+[0.029s] [35m[1mScanning dependencies of target wu5_node[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/wu5_node.dir/src/wu5.cpp.o[0m
+[1.096s] [100%] [32m[1mLinking CXX executable wu5_node[0m
+[1.193s] [100%] Built target wu5_node
+[1.198s] Invoked command in '/home/wuhao/town_ws/build/wu5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16
+[1.214s] Invoking command in '/home/wuhao/town_ws/build/wu5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/town_ws/build/wu5
+[1.217s] -- Install configuration: ""
+[1.217s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/ament_index/resource_index/package_run_dependencies/wu5
+[1.218s] -- Installing: /home/wuhao/town_ws/install/wu5/share/ament_index/resource_index/parent_prefix_path/wu5
+[1.218s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/environment/ament_prefix_path.sh
+[1.218s] -- Installing: /home/wuhao/town_ws/install/wu5/share/wu5/environment/ament_prefix_path.dsv
+[1.218s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/environment/path.sh
+[1.218s] -- Installing: /home/wuhao/town_ws/install/wu5/share/wu5/environment/path.dsv
+[1.218s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/local_setup.bash
+[1.218s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/local_setup.sh
+[1.218s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/local_setup.zsh
+[1.218s] -- Installing: /home/wuhao/town_ws/install/wu5/share/wu5/local_setup.dsv
+[1.219s] -- Installing: /home/wuhao/town_ws/install/wu5/share/wu5/package.dsv
+[1.219s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/ament_index/resource_index/packages/wu5
+[1.219s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/cmake/wu5Config.cmake
+[1.219s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/cmake/wu5Config-version.cmake
+[1.219s] -- Up-to-date: /home/wuhao/town_ws/install/wu5/share/wu5/package.xml
+[1.219s] -- Installing: /home/wuhao/town_ws/install/wu5/lib/wu5/wu5_node
+[1.220s] -- Set runtime path of "/home/wuhao/town_ws/install/wu5/lib/wu5/wu5_node" to ""
+[1.221s] Invoked command in '/home/wuhao/town_ws/build/wu5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/town_ws/build/wu5

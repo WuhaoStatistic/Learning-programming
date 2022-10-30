@@ -1,0 +1,6 @@
+Invoking command in '/home/wuhao/town_ws/build/wu5': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wuhao/town_ws/src/wu5 -DCMAKE_INSTALL_PREFIX=/home/wuhao/town_ws/install/wu5
+Invoked command in '/home/wuhao/town_ws/build/wu5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wuhao/town_ws/src/wu5 -DCMAKE_INSTALL_PREFIX=/home/wuhao/town_ws/install/wu5
+Invoking command in '/home/wuhao/town_ws/build/wu5': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16
+Invoked command in '/home/wuhao/town_ws/build/wu5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16
+Invoking command in '/home/wuhao/town_ws/build/wu5': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/town_ws/build/wu5
+Invoked command in '/home/wuhao/town_ws/build/wu5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/town_ws/build/wu5

@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/wuhao/town_ws/build/wu5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16
+[0.023s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.136s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.532s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.533s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.618s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.653s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.653s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.653s] -- Configured cppcheck include dirs: 
+[1.653s] -- Configured cppcheck exclude dirs and/or files: 
+[1.653s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.653s] -- Configured cpplint exclude dirs and/or files: 
+[1.654s] -- Added test 'lint_cmake' to check CMake code style
+[1.654s] -- Added test 'uncrustify' to check C / C++ code style
+[1.654s] -- Configured uncrustify additional arguments: 
+[1.654s] -- Added test 'xmllint' to check XML markup files
+[1.655s] CMake Error at CMakeLists.txt:36 (install):
+[1.655s]   install does not recognize sub-command TARGET
+[1.655s] 
+[1.655s] 
+[1.656s] -- Configuring incomplete, errors occurred!
+[1.656s] See also "/home/wuhao/town_ws/build/wu5/CMakeFiles/CMakeOutput.log".
+[1.656s] See also "/home/wuhao/town_ws/build/wu5/CMakeFiles/CMakeError.log".
+[1.660s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.662s] Invoked command in '/home/wuhao/town_ws/build/wu5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16

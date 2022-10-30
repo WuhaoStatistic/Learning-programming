@@ -1,0 +1,22 @@
+[0.325s] Invoking command in '/home/wuhao/town_ws/src/li4': PYTHONPATH=/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/li4 build --build-base /home/wuhao/town_ws/build/li4/build install --prefix /home/wuhao/town_ws/install/li4 --record /home/wuhao/town_ws/build/li4/install.log --single-version-externally-managed
+[0.431s] running egg_info
+[0.432s] writing ../../build/li4/li4.egg-info/PKG-INFO
+[0.432s] writing dependency_links to ../../build/li4/li4.egg-info/dependency_links.txt
+[0.432s] writing entry points to ../../build/li4/li4.egg-info/entry_points.txt
+[0.432s] writing requirements to ../../build/li4/li4.egg-info/requires.txt
+[0.432s] writing top-level names to ../../build/li4/li4.egg-info/top_level.txt
+[0.451s] reading manifest file '../../build/li4/li4.egg-info/SOURCES.txt'
+[0.451s] writing manifest file '../../build/li4/li4.egg-info/SOURCES.txt'
+[0.451s] running build
+[0.452s] running build_py
+[0.452s] running install
+[0.452s] running install_lib
+[0.452s] running install_data
+[0.453s] copying package.xml -> /home/wuhao/town_ws/install/li4/share/li4
+[0.453s] running install_egg_info
+[0.454s] removing '/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4-0.0.0-py3.8.egg-info' (and everything under it)
+[0.454s] Copying ../../build/li4/li4.egg-info to /home/wuhao/town_ws/install/li4/lib/python3.8/site-packages/li4-0.0.0-py3.8.egg-info
+[0.455s] running install_scripts
+[0.464s] Installing li5 script to /home/wuhao/town_ws/install/li4/lib/li4
+[0.464s] writing list of installed files to '/home/wuhao/town_ws/build/li4/install.log'
+[0.475s] Invoked command in '/home/wuhao/town_ws/src/li4' returned '0': PYTHONPATH=/home/wuhao/town_ws/install/li4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/li4 build --build-base /home/wuhao/town_ws/build/li4/build install --prefix /home/wuhao/town_ws/install/li4 --record /home/wuhao/town_ws/build/li4/install.log --single-version-externally-managed

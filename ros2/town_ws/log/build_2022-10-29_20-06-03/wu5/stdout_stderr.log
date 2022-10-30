@@ -1,0 +1,10 @@
+CMake Error at CMakeLists.txt:36:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/wuhao/town_ws/build/wu5/CMakeFiles/CMakeOutput.log".
+See also "/home/wuhao/town_ws/build/wu5/CMakeFiles/CMakeError.log".
+make: *** [Makefile:266: cmake_check_build_system] Error 1

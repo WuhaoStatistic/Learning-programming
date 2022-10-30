@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target wu5_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wu5_node.dir/src/wu5.cpp.o[0m
+[01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kinclude/wu5/wu5.h: No such file or directory
+    2 | #include [01;31m[K"include/wu5/wu5.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/wu5_node.dir/build.make:63: CMakeFiles/wu5_node.dir/src/wu5.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wu5_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

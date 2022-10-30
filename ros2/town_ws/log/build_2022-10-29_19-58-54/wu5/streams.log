@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/wuhao/town_ws/build/wu5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16
+[0.024s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.134s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.214s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.831s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.860s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.860s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.947s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.984s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.984s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.985s] -- Configured cppcheck include dirs: 
+[1.985s] -- Configured cppcheck exclude dirs and/or files: 
+[1.985s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.985s] -- Configured cpplint exclude dirs and/or files: 
+[1.985s] -- Added test 'lint_cmake' to check CMake code style
+[1.986s] -- Added test 'uncrustify' to check C / C++ code style
+[1.986s] -- Configured uncrustify additional arguments: 
+[1.986s] -- Added test 'xmllint' to check XML markup files
+[1.987s] -- Configuring done
+[1.992s] -- Generating done
+[1.993s] -- Build files have been written to: /home/wuhao/town_ws/build/wu5
+[2.006s] [35m[1mScanning dependencies of target wu5_node[0m
+[2.026s] [ 50%] [32mBuilding CXX object CMakeFiles/wu5_node.dir/src/wu5.cpp.o[0m
+[2.083s] [01m[K/home/wuhao/town_ws/src/wu5/src/wu5.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kwu5.h: No such file or directory
+[2.083s]     2 | #include [01;31m[K"wu5.h"[m[K
+[2.083s]       |          [01;31m[K^~~~~~~[m[K
+[2.083s] compilation terminated.
+[2.084s] make[2]: *** [CMakeFiles/wu5_node.dir/build.make:63: CMakeFiles/wu5_node.dir/src/wu5.cpp.o] Error 1
+[2.084s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/wu5_node.dir/all] Error 2
+[2.084s] make: *** [Makefile:141: all] Error 2
+[2.086s] Invoked command in '/home/wuhao/town_ws/build/wu5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16

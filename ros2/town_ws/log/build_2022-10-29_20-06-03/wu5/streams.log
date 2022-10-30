@@ -1,0 +1,12 @@
+[0.010s] Invoking command in '/home/wuhao/town_ws/build/wu5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16
+[0.019s] CMake Error at CMakeLists.txt:36:
+[0.019s]   Parse error.  Expected "(", got newline with text "
+[0.019s] 
+[0.019s]   ".
+[0.019s] 
+[0.020s] 
+[0.020s] -- Configuring incomplete, errors occurred!
+[0.020s] See also "/home/wuhao/town_ws/build/wu5/CMakeFiles/CMakeOutput.log".
+[0.020s] See also "/home/wuhao/town_ws/build/wu5/CMakeFiles/CMakeError.log".
+[0.020s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.021s] Invoked command in '/home/wuhao/town_ws/build/wu5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wuhao/town_ws/install/li4:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/town_ws/build/wu5 -- -j16 -l16

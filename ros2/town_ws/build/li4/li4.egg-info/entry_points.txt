@@ -1,0 +1,3 @@
+[console_scripts]
+li5 = li4.li4:main
+

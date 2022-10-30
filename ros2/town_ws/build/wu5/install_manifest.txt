@@ -1,0 +1,16 @@
+/home/wuhao/town_ws/install/wu5/share/ament_index/resource_index/package_run_dependencies/wu5
+/home/wuhao/town_ws/install/wu5/share/ament_index/resource_index/parent_prefix_path/wu5
+/home/wuhao/town_ws/install/wu5/share/wu5/environment/ament_prefix_path.sh
+/home/wuhao/town_ws/install/wu5/share/wu5/environment/ament_prefix_path.dsv
+/home/wuhao/town_ws/install/wu5/share/wu5/environment/path.sh
+/home/wuhao/town_ws/install/wu5/share/wu5/environment/path.dsv
+/home/wuhao/town_ws/install/wu5/share/wu5/local_setup.bash
+/home/wuhao/town_ws/install/wu5/share/wu5/local_setup.sh
+/home/wuhao/town_ws/install/wu5/share/wu5/local_setup.zsh
+/home/wuhao/town_ws/install/wu5/share/wu5/local_setup.dsv
+/home/wuhao/town_ws/install/wu5/share/wu5/package.dsv
+/home/wuhao/town_ws/install/wu5/share/ament_index/resource_index/packages/wu5
+/home/wuhao/town_ws/install/wu5/share/wu5/cmake/wu5Config.cmake
+/home/wuhao/town_ws/install/wu5/share/wu5/cmake/wu5Config-version.cmake
+/home/wuhao/town_ws/install/wu5/share/wu5/package.xml
+/home/wuhao/town_ws/install/wu5/lib/wu5/wu5_node
