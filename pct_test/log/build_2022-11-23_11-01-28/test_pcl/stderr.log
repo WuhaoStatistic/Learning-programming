@@ -1,0 +1,4 @@
+[01m[K/home/wuhao/pct_test/src/test_pcl/src/pct.cpp:[m[K In member function ‘[01m[Kvoid FilterNode::scanCb(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/wuhao/pct_test/src/test_pcl/src/pct.cpp:33:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   33 |         int [01;35m[Kcount[m[K = scan->scan_time / scan->time_increment;
+      |             [01;35m[K^~~~~[m[K

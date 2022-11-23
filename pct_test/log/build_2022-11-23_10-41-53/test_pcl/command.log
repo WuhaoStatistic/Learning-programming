@@ -1,0 +1,2 @@
+Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16

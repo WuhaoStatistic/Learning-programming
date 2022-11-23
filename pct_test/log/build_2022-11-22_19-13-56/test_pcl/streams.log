@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+[0.034s] [35m[1mScanning dependencies of target pcl_test[0m
+[0.054s] [ 33%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o[0m
+[2.096s] [ 66%] [32m[1mLinking CXX executable pcl_test[0m
+[2.339s] /usr/bin/ld: CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o: in function `main':
+[2.340s] pub_laser.cpp:(.text+0x122): multiple definition of `main'; CMakeFiles/pcl_test.dir/src/pct.cpp.o:pct.cpp:(.text+0x180): first defined here
+[2.340s] collect2: error: ld returned 1 exit status
+[2.341s] make[2]: *** [CMakeFiles/pcl_test.dir/build.make:226: pcl_test] Error 1
+[2.341s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pcl_test.dir/all] Error 2
+[2.341s] make: *** [Makefile:141: all] Error 2
+[2.342s] Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16

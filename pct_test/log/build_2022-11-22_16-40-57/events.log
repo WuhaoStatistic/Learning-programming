@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000379] (test_pcl) JobQueued: {'identifier': 'test_pcl', 'dependencies': OrderedDict()}
+[0.000549] (test_pcl) JobStarted: {'identifier': 'test_pcl'}
+[0.006905] (test_pcl) JobProgress: {'identifier': 'test_pcl', 'progress': 'cmake'}
+[0.007377] (test_pcl) JobProgress: {'identifier': 'test_pcl', 'progress': 'build'}
+[0.008052] (test_pcl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wuhao/pct_test/build/test_pcl', '--', '-j16', '-l16'], 'cwd': '/home/wuhao/pct_test/build/test_pcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wuhao'), ('GIT_ASKPASS', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wuhao'), ('OLDPWD', '/home/wuhao/pct_test/src'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e809c2e1-c3e2-425c-919b-463c43de253f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wuhao'), ('NAME', 'DESKTOP-F3L0I5N'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/vmware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/Git/cmd:/mnt/e/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.0/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Pandoc/:/mnt/c/Users/Wuhao/AppData/Local/Microsoft/WindowsApps:/mnt/e/PyCharm/bin:/mnt/e/anaconda/Scripts:/mnt/c/Users/Wuhao/AppData/Roaming/TinyTeX/bin/win32:/mnt/c/Users/Wuhao/.dotnet/tools:/mnt/e/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', '172.31.176.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c0236a3b9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_DEBUG_PLUSINSI', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuhao/pct_test/build/test_pcl'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.031173] (test_pcl) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pcl_test\x1b[0m\n'}
+[0.052186] (test_pcl) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pct.cpp.o\x1b[0m\n'}
+[0.099851] (-) TimerEvent: {}
+[0.200179] (-) TimerEvent: {}
+[0.300522] (-) TimerEvent: {}
+[0.400860] (-) TimerEvent: {}
+[0.501187] (-) TimerEvent: {}
+[0.601521] (-) TimerEvent: {}
+[0.701894] (-) TimerEvent: {}
+[0.802265] (-) TimerEvent: {}
+[0.902574] (-) TimerEvent: {}
+[1.002881] (-) TimerEvent: {}
+[1.103214] (-) TimerEvent: {}
+[1.203531] (-) TimerEvent: {}
+[1.303844] (-) TimerEvent: {}
+[1.404189] (-) TimerEvent: {}
+[1.504522] (-) TimerEvent: {}
+[1.604834] (-) TimerEvent: {}
+[1.705131] (-) TimerEvent: {}
+[1.805433] (-) TimerEvent: {}
+[1.905761] (-) TimerEvent: {}
+[2.006085] (-) TimerEvent: {}
+[2.106403] (-) TimerEvent: {}
+[2.206761] (-) TimerEvent: {}
+[2.307095] (-) TimerEvent: {}
+[2.407419] (-) TimerEvent: {}
+[2.507748] (-) TimerEvent: {}
+[2.608070] (-) TimerEvent: {}
+[2.708388] (-) TimerEvent: {}
+[2.808716] (-) TimerEvent: {}
+[2.909041] (-) TimerEvent: {}
+[3.009359] (-) TimerEvent: {}
+[3.109699] (-) TimerEvent: {}
+[3.210096] (-) TimerEvent: {}
+[3.310599] (-) TimerEvent: {}
+[3.410951] (-) TimerEvent: {}
+[3.511261] (-) TimerEvent: {}
+[3.611569] (-) TimerEvent: {}
+[3.711887] (-) TimerEvent: {}
+[3.812205] (-) TimerEvent: {}
+[3.912519] (-) TimerEvent: {}
+[4.012822] (-) TimerEvent: {}
+[4.113140] (-) TimerEvent: {}
+[4.213460] (-) TimerEvent: {}
+[4.313778] (-) TimerEvent: {}
+[4.414124] (-) TimerEvent: {}
+[4.514459] (-) TimerEvent: {}
+[4.614802] (-) TimerEvent: {}
+[4.715133] (-) TimerEvent: {}
+[4.815438] (-) TimerEvent: {}
+[4.915753] (-) TimerEvent: {}
+[5.016069] (-) TimerEvent: {}
+[5.116369] (-) TimerEvent: {}
+[5.216696] (-) TimerEvent: {}
+[5.317011] (-) TimerEvent: {}
+[5.417307] (-) TimerEvent: {}
+[5.517633] (-) TimerEvent: {}
+[5.617974] (-) TimerEvent: {}
+[5.718313] (-) TimerEvent: {}
+[5.818618] (-) TimerEvent: {}
+[5.918960] (-) TimerEvent: {}
+[5.986545] (test_pcl) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pcl_test\x1b[0m\n'}
+[6.019051] (-) TimerEvent: {}
+[6.119342] (-) TimerEvent: {}
+[6.211119] (test_pcl) StdoutLine: {'line': b'[100%] Built target pcl_test\n'}
+[6.216633] (test_pcl) CommandEnded: {'returncode': 0}
+[6.219432] (-) TimerEvent: {}
+[6.227700] (test_pcl) JobProgress: {'identifier': 'test_pcl', 'progress': 'install'}
+[6.233661] (test_pcl) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wuhao/pct_test/build/test_pcl'], 'cwd': '/home/wuhao/pct_test/build/test_pcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wuhao'), ('GIT_ASKPASS', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wuhao'), ('OLDPWD', '/home/wuhao/pct_test/src'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e809c2e1-c3e2-425c-919b-463c43de253f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wuhao'), ('NAME', 'DESKTOP-F3L0I5N'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/vmware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/Git/cmd:/mnt/e/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.0/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Pandoc/:/mnt/c/Users/Wuhao/AppData/Local/Microsoft/WindowsApps:/mnt/e/PyCharm/bin:/mnt/e/anaconda/Scripts:/mnt/c/Users/Wuhao/AppData/Roaming/TinyTeX/bin/win32:/mnt/c/Users/Wuhao/.dotnet/tools:/mnt/e/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', '172.31.176.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c0236a3b9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_DEBUG_PLUSINSI', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuhao/pct_test/build/test_pcl'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[6.238477] (test_pcl) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.238745] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/package_run_dependencies/test_pcl\n'}
+[6.239006] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/parent_prefix_path/test_pcl\n'}
+[6.239060] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/ament_prefix_path.sh\n'}
+[6.239210] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/ament_prefix_path.dsv\n'}
+[6.239312] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/path.sh\n'}
+[6.239389] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/path.dsv\n'}
+[6.239445] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.bash\n'}
+[6.239486] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.sh\n'}
+[6.239543] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.zsh\n'}
+[6.239611] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.dsv\n'}
+[6.239802] (test_pcl) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/package.dsv\n'}
+[6.240107] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/packages/test_pcl\n'}
+[6.240949] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/cmake/test_pclConfig.cmake\n'}
+[6.241976] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/cmake/test_pclConfig-version.cmake\n'}
+[6.242203] (test_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/package.xml\n'}
+[6.242886] (test_pcl) CommandEnded: {'returncode': 0}
+[6.268427] (test_pcl) JobEnded: {'identifier': 'test_pcl', 'rc': 0}
+[6.269156] (-) EventReactorShutdown: {}

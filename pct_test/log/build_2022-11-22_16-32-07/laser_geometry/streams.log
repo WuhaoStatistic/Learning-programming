@@ -1,0 +1,117 @@
+[0.010s] Invoking command in '/home/wuhao/pct_test/build/laser_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wuhao/pct_test/src/laser_geometry-release -DCMAKE_INSTALL_PREFIX=/home/wuhao/pct_test/install/laser_geometry
+[0.083s] -- The C compiler identification is GNU 9.4.0
+[0.193s] -- The CXX compiler identification is GNU 9.4.0
+[0.244s] -- Check for working C compiler: /usr/bin/cc
+[0.312s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.313s] -- Detecting C compiler ABI info
+[0.380s] -- Detecting C compiler ABI info - done
+[0.387s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.464s] -- Detecting CXX compiler ABI info
+[0.542s] -- Detecting CXX compiler ABI info - done
+[0.548s] -- Detecting CXX compile features
+[0.549s] -- Detecting CXX compile features - done
+[0.550s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.563s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.563s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.670s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.757s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.760s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.181s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.616s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.430s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.431s] -- Looking for pthread.h
+[2.502s] -- Looking for pthread.h - found
+[2.502s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.572s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.572s] -- Looking for pthread_create in pthreads
+[2.630s] -- Looking for pthread_create in pthreads - not found
+[2.630s] -- Looking for pthread_create in pthread
+[2.697s] -- Looking for pthread_create in pthread - found
+[2.698s] -- Found Threads: TRUE  
+[2.787s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.860s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.869s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.870s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.888s] -- Found ament_cmake_cppcheck: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[2.889s] -- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[2.890s] -- Found ament_cmake_lint_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[2.891s] -- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[2.892s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.894s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.895s] -- Check if compiler accepts -pthread
+[2.975s] -- Check if compiler accepts -pthread - yes
+[2.977s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.989s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.155s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.155s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.155s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.167s] -- Found PythonExtra: .so  
+[3.168s] -- Found ament_cmake_pytest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+[3.513s] -- Configuring done
+[3.523s] -- Generating done
+[3.524s] -- Build files have been written to: /home/wuhao/pct_test/build/laser_geometry
+[3.531s] Invoked command in '/home/wuhao/pct_test/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wuhao/pct_test/src/laser_geometry-release -DCMAKE_INSTALL_PREFIX=/home/wuhao/pct_test/install/laser_geometry
+[3.532s] Invoking command in '/home/wuhao/pct_test/build/laser_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/laser_geometry -- -j16 -l16
+[3.552s] [35m[1mScanning dependencies of target gtest[0m
+[3.552s] [35m[1mScanning dependencies of target gtest_main[0m
+[3.552s] [35m[1mScanning dependencies of target laser_geometry[0m
+[3.560s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.560s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.571s] [ 37%] [32mBuilding CXX object CMakeFiles/laser_geometry.dir/src/laser_geometry.cpp.o[0m
+[4.037s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.054s] [ 50%] Built target gtest_main
+[4.395s] [ 62%] [32m[1mLinking CXX shared library liblaser_geometry.so[0m
+[4.483s] [ 62%] Built target laser_geometry
+[5.545s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.573s] [ 75%] Built target gtest
+[5.577s] [35m[1mScanning dependencies of target projection_test[0m
+[5.608s] [ 87%] [32mBuilding CXX object CMakeFiles/projection_test.dir/test/projection_test.cpp.o[0m
+[7.387s] [100%] [32m[1mLinking CXX executable projection_test[0m
+[7.517s] [100%] Built target projection_test
+[7.523s] Invoked command in '/home/wuhao/pct_test/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/laser_geometry -- -j16 -l16
+[7.541s] Invoking command in '/home/wuhao/pct_test/build/laser_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/pct_test/build/laser_geometry
+[7.545s] -- Install configuration: ""
+[7.545s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/pythonpath.sh
+[7.545s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/pythonpath.dsv
+[7.546s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry
+[7.546s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry/__init__.py
+[7.546s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry/laser_geometry.py
+[7.562s] Listing '/home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry'...
+[7.563s] Compiling '/home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry/__init__.py'...
+[7.563s] Compiling '/home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry/laser_geometry.py'...
+[7.564s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/library_path.sh
+[7.565s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/library_path.dsv
+[7.565s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/lib/liblaser_geometry.so
+[7.565s] -- Set runtime path of "/home/wuhao/pct_test/install/laser_geometry/lib/liblaser_geometry.so" to ""
+[7.565s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/include/laser_geometry
+[7.566s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/include/laser_geometry/laser_geometry
+[7.566s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/include/laser_geometry/laser_geometry/visibility_control.hpp
+[7.566s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/include/laser_geometry/laser_geometry/laser_geometry.hpp
+[7.566s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/ament_index/resource_index/package_run_dependencies/laser_geometry
+[7.566s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/ament_index/resource_index/parent_prefix_path/laser_geometry
+[7.566s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.sh
+[7.566s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.dsv
+[7.566s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/path.sh
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/path.dsv
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/local_setup.bash
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/local_setup.sh
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/local_setup.zsh
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/local_setup.dsv
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/package.dsv
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/ament_index/resource_index/packages/laser_geometry
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/laser_geometryExport.cmake
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/laser_geometryExport-noconfig.cmake
+[7.567s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.568s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[7.568s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[7.568s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.568s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig.cmake
+[7.568s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig-version.cmake
+[7.568s] -- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/package.xml
+[7.570s] Invoked command in '/home/wuhao/pct_test/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/pct_test/build/laser_geometry

@@ -1,0 +1,13 @@
+** WARNING ** io features related to openni will be disabled
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Error at CMakeLists.txt:28 (add_executable):
+  Target "pcl_test" links to target "tf2::tf2" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:310: cmake_check_build_system] Error 1

@@ -1,0 +1,60 @@
+[0.011s] Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+[0.032s] [35m[1mScanning dependencies of target pcl_test[0m
+[0.051s] [ 33%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o[0m
+[0.929s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:47:19:[m[K [01;31m[Kerror: [m[KISO C++ forbids in-class initialization of non-const static member ‘[01m[KPub_laser::node_count[m[K’
+[0.929s]    47 |     static size_t [01;31m[Knode_count[m[K = 1640;
+[0.929s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[0.929s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:48:26:[m[K [01;31m[Kerror: [m[Karray bound is not an integer constant before ‘[01m[K][m[K’ token
+[0.929s]    48 |     float ran [node_count[01;31m[K][m[K;
+[0.929s]       |                          [01;31m[K^[m[K
+[0.930s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:49:28:[m[K [01;31m[Kerror: [m[Karray bound is not an integer constant before ‘[01m[K][m[K’ token
+[0.930s]    49 |     float inten [node_count[01;31m[K][m[K;
+[0.930s]       |                            [01;31m[K^[m[K
+[0.930s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:[m[K In constructor ‘[01m[KPub_laser::Pub_laser()[m[K’:
+[0.931s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:19:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Pub_laser[m[K’ has no member named ‘[01m[Kran[m[K’
+[0.931s]    19 |          this->[01;31m[Kran[m[K[i] = r(e);
+[0.931s]       |                [01;31m[K^~~[m[K
+[0.931s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Pub_laser[m[K’ has no member named ‘[01m[Kinten[m[K’
+[0.931s]    20 |          this->[01;31m[Kinten[m[K[i] = ii(e);
+[0.931s]       |                [01;31m[K^~~~~[m[K
+[0.931s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:22:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KPub_laser[m[K’
+[0.931s]    22 |        timer_ = this->create_wall_timer(500ms, std::bind(&Pub_laser::[01;31m[Ktimer_callback[m[K, this));
+[0.931s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.934s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:[m[K In member function ‘[01m[Kvoid Pub_laser::timer_callbask()[m[K’:
+[0.934s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:29:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+[0.934s]    29 |        scan_msg->header.frame_id = [01;31m[Kframe_id[m[K;
+[0.934s]       |                                    [01;31m[K^~~~~~~~[m[K
+[0.934s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:39:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Pub_laser[m[K’ has no member named ‘[01m[Kinten[m[K’
+[0.935s]    39 |        memcpy(scan_msg->intensities,this->[01;31m[Kinten[m[K,sizeof(inten));
+[0.935s]       |                                           [01;31m[K^~~~~[m[K
+[0.935s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:39:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kinten[m[K’ was not declared in this scope
+[0.935s]    39 |        memcpy(scan_msg->intensities,this->inten,sizeof([01;31m[Kinten[m[K));
+[0.935s]       |                                                        [01;31m[K^~~~~[m[K
+[0.935s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:40:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Pub_laser[m[K’ has no member named ‘[01m[Kran[m[K’
+[0.935s]    40 |        memcpy(scan_msg->ranges,this->[01;31m[Kran[m[K,sizeof(inten));
+[0.935s]       |                                      [01;31m[K^~~[m[K
+[1.239s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[1.240s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[1.240s]                  from [01m[K/usr/include/c++/9/memory:63[m[K,
+[1.240s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.240s]                  from [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:1[m[K:
+[1.240s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Pub_laser; _Args = {const char (&)[10]}; _Tp = Pub_laser][m[K’:
+[1.240s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Pub_laser; _Args = {const char (&)[10]}; _Tp = Pub_laser; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<Pub_laser>][m[K’
+[1.240s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10]}; _Tp = Pub_laser; _Alloc = std::allocator<Pub_laser>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.240s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Pub_laser; _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.240s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}; _Tp = Pub_laser; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.240s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}; _Tp = Pub_laser][m[K’
+[1.240s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Pub_laser; _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}][m[K’
+[1.240s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Pub_laser; _Args = {const char (&)[10]}][m[K’
+[1.240s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:60:56:[m[K   required from here
+[1.241s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPub_laser::Pub_laser(const char [10])[m[K’
+[1.241s]   146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[1.241s]       |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.241s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:11:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPub_laser::Pub_laser()[m[K’
+[1.241s]    11 |     [01;36m[KPub_laser[m[K():Node("laser_pub")
+[1.241s]       |     [01;36m[K^~~~~~~~~[m[K
+[1.241s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:11:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[1.508s] make[2]: *** [CMakeFiles/pcl_test.dir/build.make:76: CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o] Error 1
+[1.509s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pcl_test.dir/all] Error 2
+[1.509s] make: *** [Makefile:141: all] Error 2
+[1.510s] Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16

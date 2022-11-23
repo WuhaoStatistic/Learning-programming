@@ -1,0 +1,10 @@
+[01m[K/home/wuhao/pct_test/src/test_pcl/src/pct.cpp:8:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    8 | #include [01;31m[Krandom[m[K
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/wuhao/pct_test/src/test_pcl/src/pct.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/wuhao/pct_test/src/test_pcl/src/pct.cpp:56:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_msg[m[K’ was not declared in this scope
+   56 |     sensor_msgs::PointCloud2Iterator<float> iter_x([01;31m[Kcloud_msg[m[K, "x");
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pcl_test.dir/build.make:63: CMakeFiles/pcl_test.dir/src/pct.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pcl_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

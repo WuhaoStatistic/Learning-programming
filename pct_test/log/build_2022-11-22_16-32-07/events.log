@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000359] (-) JobUnselected: {'identifier': 'test_pcl'}
+[0.000585] (laser_geometry) JobQueued: {'identifier': 'laser_geometry', 'dependencies': OrderedDict()}
+[0.000628] (laser_geometry) JobStarted: {'identifier': 'laser_geometry'}
+[0.007173] (laser_geometry) JobProgress: {'identifier': 'laser_geometry', 'progress': 'cmake'}
+[0.007572] (laser_geometry) Command: {'cmd': ['/usr/bin/cmake', '/home/wuhao/pct_test/src/laser_geometry-release', '-DCMAKE_INSTALL_PREFIX=/home/wuhao/pct_test/install/laser_geometry'], 'cwd': '/home/wuhao/pct_test/build/laser_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wuhao'), ('GIT_ASKPASS', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wuhao'), ('OLDPWD', '/home/wuhao/pct_test/src'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e809c2e1-c3e2-425c-919b-463c43de253f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wuhao'), ('NAME', 'DESKTOP-F3L0I5N'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/vmware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/Git/cmd:/mnt/e/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.0/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Pandoc/:/mnt/c/Users/Wuhao/AppData/Local/Microsoft/WindowsApps:/mnt/e/PyCharm/bin:/mnt/e/anaconda/Scripts:/mnt/c/Users/Wuhao/AppData/Roaming/TinyTeX/bin/win32:/mnt/c/Users/Wuhao/.dotnet/tools:/mnt/e/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', '172.31.176.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c0236a3b9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_DEBUG_PLUSINSI', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuhao/pct_test/build/laser_geometry'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.083995] (laser_geometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099739] (-) TimerEvent: {}
+[0.193534] (laser_geometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.199821] (-) TimerEvent: {}
+[0.244912] (laser_geometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299903] (-) TimerEvent: {}
+[0.313131] (laser_geometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.313676] (laser_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.381221] (laser_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.387600] (laser_geometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.387824] (laser_geometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.389208] (laser_geometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399993] (-) TimerEvent: {}
+[0.464619] (laser_geometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.465278] (laser_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500105] (-) TimerEvent: {}
+[0.542632] (laser_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.549217] (laser_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.549578] (laser_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.550756] (laser_geometry) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.563787] (laser_geometry) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.563932] (laser_geometry) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.600192] (-) TimerEvent: {}
+[0.670565] (laser_geometry) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.700301] (-) TimerEvent: {}
+[0.757588] (laser_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.761059] (laser_geometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.800392] (-) TimerEvent: {}
+[0.900674] (-) TimerEvent: {}
+[1.000964] (-) TimerEvent: {}
+[1.101265] (-) TimerEvent: {}
+[1.182242] (laser_geometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.201375] (-) TimerEvent: {}
+[1.301673] (-) TimerEvent: {}
+[1.401966] (-) TimerEvent: {}
+[1.502257] (-) TimerEvent: {}
+[1.602561] (-) TimerEvent: {}
+[1.616686] (laser_geometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.702672] (-) TimerEvent: {}
+[1.802956] (-) TimerEvent: {}
+[1.903284] (-) TimerEvent: {}
+[2.003573] (-) TimerEvent: {}
+[2.103861] (-) TimerEvent: {}
+[2.204167] (-) TimerEvent: {}
+[2.304454] (-) TimerEvent: {}
+[2.398045] (laser_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.404537] (-) TimerEvent: {}
+[2.430279] (laser_geometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.430976] (laser_geometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.431730] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.502239] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.502454] (laser_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.504617] (-) TimerEvent: {}
+[2.572381] (laser_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.572670] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.604736] (-) TimerEvent: {}
+[2.630443] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.630701] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.698010] (laser_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.698657] (laser_geometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.704803] (-) TimerEvent: {}
+[2.787674] (laser_geometry) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.804929] (-) TimerEvent: {}
+[2.860506] (laser_geometry) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[2.869434] (laser_geometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[2.870905] (laser_geometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[2.889159] (laser_geometry) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[2.889873] (laser_geometry) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[2.890744] (laser_geometry) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)\n'}
+[2.891566] (laser_geometry) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[2.893267] (laser_geometry) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[2.894371] (laser_geometry) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.896004] (laser_geometry) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[2.905024] (-) TimerEvent: {}
+[2.975368] (laser_geometry) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[2.977954] (laser_geometry) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.989750] (laser_geometry) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.005106] (-) TimerEvent: {}
+[3.105339] (-) TimerEvent: {}
+[3.155855] (laser_geometry) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.156082] (laser_geometry) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.156195] (laser_geometry) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.156299] (laser_geometry) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.167988] (laser_geometry) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.168692] (laser_geometry) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)\n'}
+[3.205441] (-) TimerEvent: {}
+[3.305687] (-) TimerEvent: {}
+[3.405977] (-) TimerEvent: {}
+[3.506264] (-) TimerEvent: {}
+[3.513410] (laser_geometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.523795] (laser_geometry) StdoutLine: {'line': b'-- Generating done\n'}
+[3.525034] (laser_geometry) StdoutLine: {'line': b'-- Build files have been written to: /home/wuhao/pct_test/build/laser_geometry\n'}
+[3.531282] (laser_geometry) CommandEnded: {'returncode': 0}
+[3.532256] (laser_geometry) JobProgress: {'identifier': 'laser_geometry', 'progress': 'build'}
+[3.532898] (laser_geometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wuhao/pct_test/build/laser_geometry', '--', '-j16', '-l16'], 'cwd': '/home/wuhao/pct_test/build/laser_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wuhao'), ('GIT_ASKPASS', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wuhao'), ('OLDPWD', '/home/wuhao/pct_test/src'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e809c2e1-c3e2-425c-919b-463c43de253f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wuhao'), ('NAME', 'DESKTOP-F3L0I5N'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/vmware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/Git/cmd:/mnt/e/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.0/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Pandoc/:/mnt/c/Users/Wuhao/AppData/Local/Microsoft/WindowsApps:/mnt/e/PyCharm/bin:/mnt/e/anaconda/Scripts:/mnt/c/Users/Wuhao/AppData/Roaming/TinyTeX/bin/win32:/mnt/c/Users/Wuhao/.dotnet/tools:/mnt/e/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', '172.31.176.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c0236a3b9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_DEBUG_PLUSINSI', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuhao/pct_test/build/laser_geometry'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.552503] (laser_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[3.552704] (laser_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[3.552797] (laser_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target laser_geometry\x1b[0m\n'}
+[3.560827] (laser_geometry) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.561024] (laser_geometry) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.571827] (laser_geometry) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/laser_geometry.dir/src/laser_geometry.cpp.o\x1b[0m\n'}
+[3.606391] (-) TimerEvent: {}
+[3.706737] (-) TimerEvent: {}
+[3.807075] (-) TimerEvent: {}
+[3.907409] (-) TimerEvent: {}
+[4.007753] (-) TimerEvent: {}
+[4.037356] (laser_geometry) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[4.054664] (laser_geometry) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[4.107868] (-) TimerEvent: {}
+[4.208189] (-) TimerEvent: {}
+[4.308528] (-) TimerEvent: {}
+[4.395471] (laser_geometry) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library liblaser_geometry.so\x1b[0m\n'}
+[4.408637] (-) TimerEvent: {}
+[4.483266] (laser_geometry) StdoutLine: {'line': b'[ 62%] Built target laser_geometry\n'}
+[4.508763] (-) TimerEvent: {}
+[4.609096] (-) TimerEvent: {}
+[4.709401] (-) TimerEvent: {}
+[4.809711] (-) TimerEvent: {}
+[4.910027] (-) TimerEvent: {}
+[5.010323] (-) TimerEvent: {}
+[5.110628] (-) TimerEvent: {}
+[5.210936] (-) TimerEvent: {}
+[5.311234] (-) TimerEvent: {}
+[5.411551] (-) TimerEvent: {}
+[5.511857] (-) TimerEvent: {}
+[5.545995] (laser_geometry) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.573518] (laser_geometry) StdoutLine: {'line': b'[ 75%] Built target gtest\n'}
+[5.578136] (laser_geometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target projection_test\x1b[0m\n'}
+[5.608506] (laser_geometry) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/projection_test.dir/test/projection_test.cpp.o\x1b[0m\n'}
+[5.611940] (-) TimerEvent: {}
+[5.712243] (-) TimerEvent: {}
+[5.812551] (-) TimerEvent: {}
+[5.912871] (-) TimerEvent: {}
+[6.013357] (-) TimerEvent: {}
+[6.113677] (-) TimerEvent: {}
+[6.213991] (-) TimerEvent: {}
+[6.314327] (-) TimerEvent: {}
+[6.414650] (-) TimerEvent: {}
+[6.515036] (-) TimerEvent: {}
+[6.615416] (-) TimerEvent: {}
+[6.715738] (-) TimerEvent: {}
+[6.816073] (-) TimerEvent: {}
+[6.916407] (-) TimerEvent: {}
+[7.016752] (-) TimerEvent: {}
+[7.117080] (-) TimerEvent: {}
+[7.217406] (-) TimerEvent: {}
+[7.317858] (-) TimerEvent: {}
+[7.387598] (laser_geometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable projection_test\x1b[0m\n'}
+[7.417963] (-) TimerEvent: {}
+[7.517973] (laser_geometry) StdoutLine: {'line': b'[100%] Built target projection_test\n'}
+[7.518162] (-) TimerEvent: {}
+[7.523702] (laser_geometry) CommandEnded: {'returncode': 0}
+[7.536031] (laser_geometry) JobProgress: {'identifier': 'laser_geometry', 'progress': 'install'}
+[7.541395] (laser_geometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wuhao/pct_test/build/laser_geometry'], 'cwd': '/home/wuhao/pct_test/build/laser_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wuhao'), ('GIT_ASKPASS', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wuhao'), ('OLDPWD', '/home/wuhao/pct_test/src'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e809c2e1-c3e2-425c-919b-463c43de253f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wuhao'), ('NAME', 'DESKTOP-F3L0I5N'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/vmware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/Git/cmd:/mnt/e/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.0/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Pandoc/:/mnt/c/Users/Wuhao/AppData/Local/Microsoft/WindowsApps:/mnt/e/PyCharm/bin:/mnt/e/anaconda/Scripts:/mnt/c/Users/Wuhao/AppData/Roaming/TinyTeX/bin/win32:/mnt/c/Users/Wuhao/.dotnet/tools:/mnt/e/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', '172.31.176.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c0236a3b9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_DEBUG_PLUSINSI', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuhao/pct_test/build/laser_geometry'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.545793] (laser_geometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.546056] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/pythonpath.sh\n'}
+[7.546222] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/pythonpath.dsv\n'}
+[7.546338] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry\n'}
+[7.546490] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry/__init__.py\n'}
+[7.546635] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry/laser_geometry.py\n'}
+[7.563184] (laser_geometry) StdoutLine: {'line': b"Listing '/home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry'...\n"}
+[7.563349] (laser_geometry) StdoutLine: {'line': b"Compiling '/home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry/__init__.py'...\n"}
+[7.563451] (laser_geometry) StdoutLine: {'line': b"Compiling '/home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages/laser_geometry/laser_geometry.py'...\n"}
+[7.565187] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/library_path.sh\n'}
+[7.565338] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/library_path.dsv\n'}
+[7.565488] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/lib/liblaser_geometry.so\n'}
+[7.566015] (laser_geometry) StdoutLine: {'line': b'-- Set runtime path of "/home/wuhao/pct_test/install/laser_geometry/lib/liblaser_geometry.so" to ""\n'}
+[7.566130] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/include/laser_geometry\n'}
+[7.566293] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/include/laser_geometry/laser_geometry\n'}
+[7.566428] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/include/laser_geometry/laser_geometry/visibility_control.hpp\n'}
+[7.566527] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/include/laser_geometry/laser_geometry/laser_geometry.hpp\n'}
+[7.566672] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/ament_index/resource_index/package_run_dependencies/laser_geometry\n'}
+[7.566785] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/ament_index/resource_index/parent_prefix_path/laser_geometry\n'}
+[7.566900] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.sh\n'}
+[7.567019] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.dsv\n'}
+[7.567176] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/path.sh\n'}
+[7.567282] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/environment/path.dsv\n'}
+[7.567415] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/local_setup.bash\n'}
+[7.567565] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/local_setup.sh\n'}
+[7.567693] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/local_setup.zsh\n'}
+[7.567794] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/local_setup.dsv\n'}
+[7.567894] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/package.dsv\n'}
+[7.567985] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/ament_index/resource_index/packages/laser_geometry\n'}
+[7.568093] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/laser_geometryExport.cmake\n'}
+[7.568179] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/laser_geometryExport-noconfig.cmake\n'}
+[7.568274] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.568396] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.568555] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.568630] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.568713] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig.cmake\n'}
+[7.568810] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig-version.cmake\n'}
+[7.568887] (laser_geometry) StdoutLine: {'line': b'-- Installing: /home/wuhao/pct_test/install/laser_geometry/share/laser_geometry/package.xml\n'}
+[7.569919] (laser_geometry) CommandEnded: {'returncode': 0}
+[7.605254] (laser_geometry) JobEnded: {'identifier': 'laser_geometry', 'rc': 0}
+[7.605961] (-) EventReactorShutdown: {}

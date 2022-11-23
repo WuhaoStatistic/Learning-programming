@@ -1,0 +1,24 @@
+[0.010s] Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+[0.031s] [35m[1mScanning dependencies of target pcl_test[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pct.cpp.o[0m
+[5.986s] [100%] [32m[1mLinking CXX executable pcl_test[0m
+[6.210s] [100%] Built target pcl_test
+[6.216s] Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+[6.234s] Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/pct_test/build/test_pcl
+[6.238s] -- Install configuration: ""
+[6.238s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/package_run_dependencies/test_pcl
+[6.238s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/parent_prefix_path/test_pcl
+[6.238s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/ament_prefix_path.sh
+[6.239s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/ament_prefix_path.dsv
+[6.239s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/path.sh
+[6.239s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/path.dsv
+[6.239s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.bash
+[6.239s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.sh
+[6.239s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.zsh
+[6.239s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.dsv
+[6.239s] -- Installing: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/package.dsv
+[6.240s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/packages/test_pcl
+[6.241s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/cmake/test_pclConfig.cmake
+[6.241s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/cmake/test_pclConfig-version.cmake
+[6.242s] -- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/package.xml
+[6.242s] Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/pct_test/build/test_pcl

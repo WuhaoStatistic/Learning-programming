@@ -1,0 +1,17 @@
+/home/wuhao/pct_test/install/test_pcl/lib/test_pcl/pcl_test
+/home/wuhao/pct_test/install/test_pcl/lib/test_pcl/pub_laser
+/home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/package_run_dependencies/test_pcl
+/home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/parent_prefix_path/test_pcl
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/ament_prefix_path.sh
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/ament_prefix_path.dsv
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/path.sh
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/path.dsv
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.bash
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.sh
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.zsh
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.dsv
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/package.dsv
+/home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/packages/test_pcl
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/cmake/test_pclConfig.cmake
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/cmake/test_pclConfig-version.cmake
+/home/wuhao/pct_test/install/test_pcl/share/test_pcl/package.xml

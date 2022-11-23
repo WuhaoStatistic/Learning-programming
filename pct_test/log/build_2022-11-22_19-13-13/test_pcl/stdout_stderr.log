@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target pcl_test[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o[0m
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/memory:63[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:1[m[K:
+/usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Pub_laser; _Args = {const char (&)[10]}; _Tp = Pub_laser][m[K’:
+[01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Pub_laser; _Args = {const char (&)[10]}; _Tp = Pub_laser; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<Pub_laser>][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10]}; _Tp = Pub_laser; _Alloc = std::allocator<Pub_laser>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Pub_laser; _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}; _Tp = Pub_laser; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}; _Tp = Pub_laser][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Pub_laser; _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}][m[K’
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Pub_laser; _Args = {const char (&)[10]}][m[K’
+[01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:54:56:[m[K   required from here
+[01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPub_laser::Pub_laser(const char [10])[m[K’
+  146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:11:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPub_laser::Pub_laser()[m[K’
+   11 |     [01;36m[KPub_laser[m[K():Node("laser_pub")
+      |     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:11:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/pcl_test.dir/build.make:76: CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pcl_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

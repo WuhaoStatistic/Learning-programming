@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000241] (test_pcl) JobQueued: {'identifier': 'test_pcl', 'dependencies': OrderedDict()}
+[0.000459] (test_pcl) JobStarted: {'identifier': 'test_pcl'}
+[0.008131] (test_pcl) JobProgress: {'identifier': 'test_pcl', 'progress': 'cmake'}
+[0.008659] (test_pcl) JobProgress: {'identifier': 'test_pcl', 'progress': 'build'}
+[0.009358] (test_pcl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wuhao/pct_test/build/test_pcl', '--', '-j16', '-l16'], 'cwd': '/home/wuhao/pct_test/build/test_pcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wuhao'), ('GIT_ASKPASS', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wuhao/pct_test/install/laser_geometry/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/wuhao'), ('OLDPWD', '/home/wuhao'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e809c2e1-c3e2-425c-919b-463c43de253f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('COLCON_PREFIX_PATH', '/home/wuhao/pct_test/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'wuhao'), ('NAME', 'DESKTOP-F3L0I5N'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wuhao/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/vmware/bin/:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/e/Git/cmd:/mnt/e/anaconda/Scripts:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.0/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Pandoc/:/mnt/c/Users/Wuhao/AppData/Local/Microsoft/WindowsApps:/mnt/e/PyCharm/bin:/mnt/e/anaconda/Scripts:/mnt/c/Users/Wuhao/AppData/Roaming/TinyTeX/bin/win32:/mnt/c/Users/Wuhao/.dotnet/tools:/mnt/e/Microsoft VS Code/bin:/snap/bin'), ('DISPLAY', '172.31.176.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c0236a3b9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/wuhao/pct_test/install/test_pcl:/home/wuhao/pct_test/install/laser_geometry:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_DEBUG_PLUSINSI', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wuhao/pct_test/build/test_pcl'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wuhao/pct_test/install/laser_geometry/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/wuhao/pct_test/install/test_pcl:/home/wuhao/pct_test/install/laser_geometry:/opt/ros/foxy'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.024949] (test_pcl) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.036785] (test_pcl) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099876] (-) TimerEvent: {}
+[0.135521] (test_pcl) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.199999] (-) TimerEvent: {}
+[0.202284] (test_pcl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.204172] (test_pcl) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300112] (-) TimerEvent: {}
+[0.400442] (-) TimerEvent: {}
+[0.500736] (-) TimerEvent: {}
+[0.601022] (-) TimerEvent: {}
+[0.701315] (-) TimerEvent: {}
+[0.801597] (-) TimerEvent: {}
+[0.901894] (-) TimerEvent: {}
+[1.002208] (-) TimerEvent: {}
+[1.102505] (-) TimerEvent: {}
+[1.202794] (-) TimerEvent: {}
+[1.303092] (-) TimerEvent: {}
+[1.403408] (-) TimerEvent: {}
+[1.503898] (-) TimerEvent: {}
+[1.604222] (-) TimerEvent: {}
+[1.704519] (-) TimerEvent: {}
+[1.804803] (-) TimerEvent: {}
+[1.872024] (test_pcl) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.904889] (-) TimerEvent: {}
+[1.968828] (test_pcl) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.989679] (test_pcl) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.990458] (test_pcl) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.004975] (-) TimerEvent: {}
+[2.070100] (test_pcl) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)\n'}
+[2.078408] (test_pcl) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.087501] (test_pcl) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.088828] (test_pcl) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[2.105066] (-) TimerEvent: {}
+[2.180369] (test_pcl) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[2.180616] (test_pcl) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[2.180724] (test_pcl) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[2.182866] (test_pcl) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.184235] (test_pcl) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[2.205152] (-) TimerEvent: {}
+[2.260579] (test_pcl) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[2.260964] (test_pcl) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[2.261069] (test_pcl) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[2.261156] (test_pcl) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[2.261279] (test_pcl) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[2.295620] (test_pcl) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[2.295837] (test_pcl) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[2.295935] (test_pcl) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.296024] (test_pcl) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.296112] (test_pcl) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.296309] (test_pcl) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.296415] (test_pcl) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.296494] (test_pcl) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.296577] (test_pcl) StdoutLine: {'line': b'\n'}
+[2.296669] (test_pcl) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[2.296844] (test_pcl) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[2.296993] (test_pcl) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.297079] (test_pcl) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.297151] (test_pcl) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.297229] (test_pcl) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.297306] (test_pcl) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.297375] (test_pcl) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.297445] (test_pcl) StdoutLine: {'line': b'\n'}
+[2.297521] (test_pcl) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[2.297598] (test_pcl) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[2.297674] (test_pcl) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.297750] (test_pcl) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.297827] (test_pcl) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.297902] (test_pcl) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.297978] (test_pcl) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.298054] (test_pcl) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.298128] (test_pcl) StdoutLine: {'line': b'\n'}
+[2.298229] (test_pcl) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[2.298314] (test_pcl) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[2.298392] (test_pcl) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.298470] (test_pcl) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.298582] (test_pcl) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.298661] (test_pcl) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.298738] (test_pcl) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.298816] (test_pcl) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.298893] (test_pcl) StdoutLine: {'line': b'\n'}
+[2.305225] (-) TimerEvent: {}
+[2.362731] (test_pcl) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[2.362948] (test_pcl) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[2.363054] (test_pcl) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.363231] (test_pcl) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.363433] (test_pcl) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.364273] (test_pcl) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.398541] (test_pcl) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[2.398729] (test_pcl) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[2.398834] (test_pcl) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.398930] (test_pcl) StderrLine: {'line': b'  CMakeLists.txt:49 (ament_target_dependencies)\n'}
+[2.399019] (test_pcl) StderrLine: {'line': b'\n'}
+[2.399098] (test_pcl) StderrLine: {'line': b'\n'}
+[2.399426] (test_pcl) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.399539] (test_pcl) StdoutLine: {'line': b'See also "/home/wuhao/pct_test/build/test_pcl/CMakeFiles/CMakeOutput.log".\n'}
+[2.399623] (test_pcl) StdoutLine: {'line': b'See also "/home/wuhao/pct_test/build/test_pcl/CMakeFiles/CMakeError.log".\n'}
+[2.404809] (test_pcl) StderrLine: {'line': b'make: *** [Makefile:296: cmake_check_build_system] Error 1\n'}
+[2.405299] (-) TimerEvent: {}
+[2.405994] (test_pcl) CommandEnded: {'returncode': 2}
+[2.428505] (test_pcl) JobEnded: {'identifier': 'test_pcl', 'rc': 2}
+[2.429441] (-) EventReactorShutdown: {}

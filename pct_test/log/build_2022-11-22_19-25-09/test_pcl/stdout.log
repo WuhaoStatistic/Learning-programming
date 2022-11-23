@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target pcl_test[0m
+[ 50%] Built target pub_laser
+[ 75%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pct.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pcl_test[0m

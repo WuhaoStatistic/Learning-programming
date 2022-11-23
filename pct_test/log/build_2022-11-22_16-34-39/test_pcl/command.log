@@ -1,0 +1,6 @@
+Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wuhao/pct_test/src/test_pcl -DCMAKE_INSTALL_PREFIX=/home/wuhao/pct_test/install/test_pcl
+Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wuhao/pct_test/src/test_pcl -DCMAKE_INSTALL_PREFIX=/home/wuhao/pct_test/install/test_pcl
+Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/pct_test/build/test_pcl
+Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/pct_test/build/test_pcl

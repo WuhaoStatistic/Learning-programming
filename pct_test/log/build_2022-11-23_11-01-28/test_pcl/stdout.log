@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target pcl_test[0m
+[ 50%] Built target pub_laser
+[ 75%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pct.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pcl_test[0m
+[100%] Built target pcl_test
+-- Install configuration: ""
+-- Installing: /home/wuhao/pct_test/install/test_pcl/lib/test_pcl/pcl_test
+-- Set runtime path of "/home/wuhao/pct_test/install/test_pcl/lib/test_pcl/pcl_test" to ""
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/lib/test_pcl/pub_laser
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/package_run_dependencies/test_pcl
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/parent_prefix_path/test_pcl
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/path.sh
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/environment/path.dsv
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.bash
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.sh
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.zsh
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/local_setup.dsv
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/package.dsv
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/ament_index/resource_index/packages/test_pcl
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/cmake/test_pclConfig.cmake
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/cmake/test_pclConfig-version.cmake
+-- Up-to-date: /home/wuhao/pct_test/install/test_pcl/share/test_pcl/package.xml

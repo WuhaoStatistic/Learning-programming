@@ -1,0 +1,12 @@
+[0.012s] Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+[0.043s] [35m[1mScanning dependencies of target pcl_test[0m
+[0.053s] [ 50%] Built target pub_laser
+[0.087s] [ 75%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pct.cpp.o[0m
+[6.466s] [100%] [32m[1mLinking CXX executable pcl_test[0m
+[6.686s] /usr/bin/ld: CMakeFiles/pcl_test.dir/src/pct.cpp.o: in function `laser_geometry::LaserProjection::projectLaser(sensor_msgs::msg::LaserScan_<std::allocator<void> > const&, sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, double, int)':
+[6.686s] pct.cpp:(.text._ZN14laser_geometry15LaserProjection12projectLaserERKN11sensor_msgs3msg10LaserScan_ISaIvEEERNS2_12PointCloud2_IS4_EEdi[_ZN14laser_geometry15LaserProjection12projectLaserERKN11sensor_msgs3msg10LaserScan_ISaIvEEERNS2_12PointCloud2_IS4_EEdi]+0x3c): undefined reference to `laser_geometry::LaserProjection::projectLaser_(sensor_msgs::msg::LaserScan_<std::allocator<void> > const&, sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, double, int)'
+[6.687s] collect2: error: ld returned 1 exit status
+[6.687s] make[2]: *** [CMakeFiles/pcl_test.dir/build.make:211: pcl_test] Error 1
+[6.687s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pcl_test.dir/all] Error 2
+[6.688s] make: *** [Makefile:141: all] Error 2
+[6.689s] Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16

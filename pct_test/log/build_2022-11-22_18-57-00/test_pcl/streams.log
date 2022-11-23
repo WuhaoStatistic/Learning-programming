@@ -1,0 +1,150 @@
+[0.011s] Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+[0.029s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.141s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.862s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.884s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.885s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.964s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[1.972s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.982s] -- Checking for module 'libusb-1.0'
+[1.983s] --   No package 'libusb-1.0' found
+[2.066s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[2.066s] -- OpenNI disabled because libusb-1.0 not found.
+[2.066s] ** WARNING ** io features related to openni will be disabled
+[2.069s] -- Checking for module 'libusb-1.0'
+[2.070s] --   No package 'libusb-1.0' found
+[2.137s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[2.137s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[2.138s] ** WARNING ** io features related to openni2 will be disabled
+[2.138s] ** WARNING ** io features related to pcap will be disabled
+[2.138s] ** WARNING ** io features related to png will be disabled
+[2.173s] -- The imported target "vtkParseOGLExt" references the file
+[2.173s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.173s] but this file does not exist.  Possible reasons include:
+[2.173s] * The file was deleted, renamed, or moved to another location.
+[2.173s] * An install or uninstall procedure did not complete successfully.
+[2.173s] * The installation package was faulty and contained
+[2.174s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.174s] but not all the files it references.
+[2.174s] 
+[2.174s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.174s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.174s] but this file does not exist.  Possible reasons include:
+[2.174s] * The file was deleted, renamed, or moved to another location.
+[2.174s] * An install or uninstall procedure did not complete successfully.
+[2.174s] * The installation package was faulty and contained
+[2.174s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.174s] but not all the files it references.
+[2.174s] 
+[2.175s] -- The imported target "vtk" references the file
+[2.175s]    "/usr/bin/vtk"
+[2.175s] but this file does not exist.  Possible reasons include:
+[2.175s] * The file was deleted, renamed, or moved to another location.
+[2.175s] * An install or uninstall procedure did not complete successfully.
+[2.175s] * The installation package was faulty and contained
+[2.175s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.175s] but not all the files it references.
+[2.175s] 
+[2.175s] -- The imported target "pvtk" references the file
+[2.175s]    "/usr/bin/pvtk"
+[2.175s] but this file does not exist.  Possible reasons include:
+[2.175s] * The file was deleted, renamed, or moved to another location.
+[2.176s] * An install or uninstall procedure did not complete successfully.
+[2.176s] * The installation package was faulty and contained
+[2.176s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.176s] but not all the files it references.
+[2.176s] 
+[2.234s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[2.234s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.234s] -- looking for PCL_COMMON
+[2.235s] -- looking for PCL_OCTREE
+[2.235s] -- looking for PCL_IO
+[2.236s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.273s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.273s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.273s] -- Configured cppcheck include dirs: 
+[2.273s] -- Configured cppcheck exclude dirs and/or files: 
+[2.274s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.274s] -- Configured cpplint exclude dirs and/or files: 
+[2.274s] -- Added test 'lint_cmake' to check CMake code style
+[2.274s] -- Added test 'uncrustify' to check C / C++ code style
+[2.274s] -- Configured uncrustify additional arguments: 
+[2.274s] -- Added test 'xmllint' to check XML markup files
+[2.276s] -- Configuring done
+[2.287s] -- Generating done
+[2.289s] -- Build files have been written to: /home/wuhao/pct_test/build/test_pcl
+[2.305s] [35m[1mScanning dependencies of target pcl_test[0m
+[2.329s] [ 66%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o[0m
+[2.329s] [ 66%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pct.cpp.o[0m
+[3.271s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:47:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[3.271s]    47 |     [01;31m[Kauto[m[K scan_msg = std::make_shared<sensor_msgs::msg::LaserScan>();
+[3.271s]       |     [01;31m[K^~~~[m[K
+[3.271s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:49:16:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPub_laser::node_count[m[K’
+[3.271s]    49 |     float ran [[01;31m[Knode_count[m[K];
+[3.271s]       |                [01;31m[K^~~~~~~~~~[m[K
+[3.271s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:48:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.271s]    48 |     size_t [01;36m[Knode_count[m[K = 1640;
+[3.271s]       |            [01;36m[K^~~~~~~~~~[m[K
+[3.271s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:50:18:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KPub_laser::node_count[m[K’
+[3.272s]    50 |     float inten [[01;31m[Knode_count[m[K];
+[3.272s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[3.272s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:48:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.272s]    48 |     size_t [01;36m[Knode_count[m[K = 1640;
+[3.272s]       |            [01;36m[K^~~~~~~~~~[m[K
+[3.272s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:[m[K In constructor ‘[01m[KPub_laser::Pub_laser()[m[K’:
+[3.272s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:17:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.273s]    17 |        for(int i=0; [01;35m[Ki<this->node_count[m[K; i++)
+[3.273s]       |                     [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[3.273s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:19:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kran[m[K’ was not declared in this scope; did you mean ‘[01m[Krand[m[K’?
+[3.274s]    19 |          [01;31m[Kran[m[K[i] = r(e);
+[3.274s]       |          [01;31m[K^~~[m[K
+[3.274s]       |          [32m[Krand[m[K
+[3.274s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:20:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kinten[m[K’ was not declared in this scope
+[3.274s]    20 |          [01;31m[Kinten[m[K[i] = i(e);
+[3.274s]       |          [01;31m[K^~~~~[m[K
+[3.274s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:20:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ cannot be used as a function
+[3.274s]    20 |          inten[i] = i(e[01;31m[K)[m[K;
+[3.274s]       |                        [01;31m[K^[m[K
+[3.275s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:23:53:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+[3.275s]    23 |        this->scan_msg->header.stamp = rclcpp::Time::[01;31m[Know[m[K()
+[3.275s]       |                                                     [01;31m[K^~~[m[K
+[3.275s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:34:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kinten[m[K’ was not declared in this scope
+[3.275s]    34 |        memcpy(scan_msg->intensities,[01;31m[Kinten[m[K,sizeof(inten));
+[3.275s]       |                                     [01;31m[K^~~~~[m[K
+[3.275s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:35:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kran[m[K’ was not declared in this scope; did you mean ‘[01m[Krand[m[K’?
+[3.275s]    35 |        memcpy(scan_msg->ranges,[01;31m[Kran[m[K,sizeof(inten));
+[3.275s]       |                                [01;31m[K^~~[m[K
+[3.275s]       |                                [32m[Krand[m[K
+[3.275s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:36:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KPub_laser[m[K’
+[3.276s]    36 |        timer_ = this->create_wall_timer(500ms, std::bind(&Pub_laser::[01;31m[Ktimer_callback[m[K, this));
+[3.276s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.527s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[3.527s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[3.527s]                  from [01m[K/usr/include/c++/9/memory:63[m[K,
+[3.527s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.528s]                  from [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:1[m[K:
+[3.528s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Pub_laser; _Args = {const char (&)[10]}; _Tp = Pub_laser][m[K’:
+[3.528s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Pub_laser; _Args = {const char (&)[10]}; _Tp = Pub_laser; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<Pub_laser>][m[K’
+[3.528s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10]}; _Tp = Pub_laser; _Alloc = std::allocator<Pub_laser>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.528s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Pub_laser; _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.528s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}; _Tp = Pub_laser; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.528s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}; _Tp = Pub_laser][m[K’
+[3.528s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Pub_laser; _Alloc = std::allocator<Pub_laser>; _Args = {const char (&)[10]}][m[K’
+[3.528s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Pub_laser; _Args = {const char (&)[10]}][m[K’
+[3.528s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:61:56:[m[K   required from here
+[3.528s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPub_laser::Pub_laser(const char [10])[m[K’
+[3.528s]   146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[3.529s]       |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.529s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:11:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPub_laser::Pub_laser()[m[K’
+[3.529s]    11 |     [01;36m[KPub_laser[m[K():Node("laser_pub")
+[3.529s]       |     [01;36m[K^~~~~~~~~[m[K
+[3.529s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pub_laser.cpp:11:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[3.894s] make[2]: *** [CMakeFiles/pcl_test.dir/build.make:76: CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o] Error 1
+[3.895s] make[2]: *** Waiting for unfinished jobs....
+[8.492s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pcl_test.dir/all] Error 2
+[8.492s] make: *** [Makefile:141: all] Error 2
+[8.494s] Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16

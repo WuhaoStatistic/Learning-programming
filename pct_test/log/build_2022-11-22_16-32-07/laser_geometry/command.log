@@ -1,0 +1,6 @@
+Invoking command in '/home/wuhao/pct_test/build/laser_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wuhao/pct_test/src/laser_geometry-release -DCMAKE_INSTALL_PREFIX=/home/wuhao/pct_test/install/laser_geometry
+Invoked command in '/home/wuhao/pct_test/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/wuhao/pct_test/src/laser_geometry-release -DCMAKE_INSTALL_PREFIX=/home/wuhao/pct_test/install/laser_geometry
+Invoking command in '/home/wuhao/pct_test/build/laser_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/laser_geometry -- -j16 -l16
+Invoked command in '/home/wuhao/pct_test/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/laser_geometry -- -j16 -l16
+Invoking command in '/home/wuhao/pct_test/build/laser_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/pct_test/build/laser_geometry
+Invoked command in '/home/wuhao/pct_test/build/laser_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/wuhao/pct_test/build/laser_geometry

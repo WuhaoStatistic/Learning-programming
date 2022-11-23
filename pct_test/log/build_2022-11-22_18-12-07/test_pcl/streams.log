@@ -1,0 +1,14 @@
+[0.012s] Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+[0.033s] [35m[1mScanning dependencies of target pcl_test[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pct.cpp.o[0m
+[0.958s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pct.cpp:8:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[0.958s]     8 | #include [01;31m[Krandom[m[K
+[0.958s]       |          [01;31m[K^~~~~~[m[K
+[3.226s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pct.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.226s] [01m[K/home/wuhao/pct_test/src/test_pcl/src/pct.cpp:56:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_msg[m[K’ was not declared in this scope
+[3.226s]    56 |     sensor_msgs::PointCloud2Iterator<float> iter_x([01;31m[Kcloud_msg[m[K, "x");
+[3.226s]       |                                                    [01;31m[K^~~~~~~~~[m[K
+[4.528s] make[2]: *** [CMakeFiles/pcl_test.dir/build.make:63: CMakeFiles/pcl_test.dir/src/pct.cpp.o] Error 1
+[4.528s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pcl_test.dir/all] Error 2
+[4.528s] make: *** [Makefile:141: all] Error 2
+[4.530s] Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16

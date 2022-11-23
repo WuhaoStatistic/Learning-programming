@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target pcl_test[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable pcl_test[0m
+/usr/bin/ld: CMakeFiles/pcl_test.dir/src/pub_laser.cpp.o: in function `main':
+pub_laser.cpp:(.text+0x122): multiple definition of `main'; CMakeFiles/pcl_test.dir/src/pct.cpp.o:pct.cpp:(.text+0x180): first defined here
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/pcl_test.dir/build.make:226: pcl_test] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pcl_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,90 @@
+[0.013s] Invoking command in '/home/wuhao/pct_test/build/test_pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
+[0.077s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.200s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.960s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.993s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.994s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.086s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[2.097s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.106s] -- Checking for module 'libusb-1.0'
+[2.111s] --   No package 'libusb-1.0' found
+[2.189s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[2.189s] -- OpenNI disabled because libusb-1.0 not found.
+[2.190s] ** WARNING ** io features related to openni will be disabled
+[2.192s] -- Checking for module 'libusb-1.0'
+[2.193s] --   No package 'libusb-1.0' found
+[2.258s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[2.258s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[2.258s] ** WARNING ** io features related to openni2 will be disabled
+[2.258s] ** WARNING ** io features related to pcap will be disabled
+[2.259s] ** WARNING ** io features related to png will be disabled
+[2.295s] -- The imported target "vtkParseOGLExt" references the file
+[2.295s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.295s] but this file does not exist.  Possible reasons include:
+[2.295s] * The file was deleted, renamed, or moved to another location.
+[2.295s] * An install or uninstall procedure did not complete successfully.
+[2.295s] * The installation package was faulty and contained
+[2.295s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.295s] but not all the files it references.
+[2.296s] 
+[2.296s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.296s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.296s] but this file does not exist.  Possible reasons include:
+[2.296s] * The file was deleted, renamed, or moved to another location.
+[2.296s] * An install or uninstall procedure did not complete successfully.
+[2.296s] * The installation package was faulty and contained
+[2.296s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.296s] but not all the files it references.
+[2.296s] 
+[2.296s] -- The imported target "vtk" references the file
+[2.297s]    "/usr/bin/vtk"
+[2.297s] but this file does not exist.  Possible reasons include:
+[2.297s] * The file was deleted, renamed, or moved to another location.
+[2.297s] * An install or uninstall procedure did not complete successfully.
+[2.297s] * The installation package was faulty and contained
+[2.297s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.297s] but not all the files it references.
+[2.297s] 
+[2.297s] -- The imported target "pvtk" references the file
+[2.297s]    "/usr/bin/pvtk"
+[2.297s] but this file does not exist.  Possible reasons include:
+[2.297s] * The file was deleted, renamed, or moved to another location.
+[2.297s] * An install or uninstall procedure did not complete successfully.
+[2.297s] * The installation package was faulty and contained
+[2.298s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.298s] but not all the files it references.
+[2.298s] 
+[2.361s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[2.362s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.362s] -- looking for PCL_COMMON
+[2.362s] -- looking for PCL_OCTREE
+[2.362s] -- looking for PCL_IO
+[2.363s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.406s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.407s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.407s] -- Configured cppcheck include dirs: 
+[2.407s] -- Configured cppcheck exclude dirs and/or files: 
+[2.407s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.407s] -- Configured cpplint exclude dirs and/or files: 
+[2.408s] -- Added test 'lint_cmake' to check CMake code style
+[2.408s] -- Added test 'uncrustify' to check C / C++ code style
+[2.408s] -- Configured uncrustify additional arguments: 
+[2.409s] -- Added test 'xmllint' to check XML markup files
+[2.411s] -- Configuring done
+[2.437s] -- Generating done
+[2.438s] -- Build files have been written to: /home/wuhao/pct_test/build/test_pcl
+[2.463s] [35m[1mScanning dependencies of target pcl_test[0m
+[2.472s] [ 50%] Built target pub_laser
+[2.485s] [ 75%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pct.cpp.o[0m
+[8.890s] [100%] [32m[1mLinking CXX executable pcl_test[0m
+[9.188s] /usr/bin/ld: CMakeFiles/pcl_test.dir/src/pct.cpp.o: in function `laser_geometry::LaserProjection::projectLaser(sensor_msgs::msg::LaserScan_<std::allocator<void> > const&, sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, double, int)':
+[9.189s] pct.cpp:(.text._ZN14laser_geometry15LaserProjection12projectLaserERKN11sensor_msgs3msg10LaserScan_ISaIvEEERNS2_12PointCloud2_IS4_EEdi[_ZN14laser_geometry15LaserProjection12projectLaserERKN11sensor_msgs3msg10LaserScan_ISaIvEEERNS2_12PointCloud2_IS4_EEdi]+0x3c): undefined reference to `laser_geometry::LaserProjection::projectLaser_(sensor_msgs::msg::LaserScan_<std::allocator<void> > const&, sensor_msgs::msg::PointCloud2_<std::allocator<void> >&, double, int)'
+[9.189s] collect2: error: ld returned 1 exit status
+[9.189s] make[2]: *** [CMakeFiles/pcl_test.dir/build.make:211: pcl_test] Error 1
+[9.189s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pcl_test.dir/all] Error 2
+[9.190s] make: *** [Makefile:141: all] Error 2
+[9.191s] Invoked command in '/home/wuhao/pct_test/build/test_pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/wuhao/pct_test/build/test_pcl -- -j16 -l16
